@@ -42,4 +42,4 @@ client.on('message', async (msg) => {
 		run(msg);
 	}
 });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.CARNY_BOT_TOKEN);

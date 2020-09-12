@@ -6,7 +6,7 @@ const carnageBoard = 'http://boards.nexustk.com/Carnage/index.html';
 
 async function run(msg) {
 	console.log('start');
-	const browser = await puppeteer.launch({ headless: true, args: [ '--no-sandbox' ] });
+	const browser = await puppeteer.launch({ headless: true, args: [ '--no-sandbox', '--disable-setuid-sandbox' ] });
 	const page = await browser.newPage();
 	await page.goto(carnageBoard, { waitUntil: 'networkidle0' });
 	console.log('go to page');

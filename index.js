@@ -58,7 +58,7 @@ async function run(msg) {
 							});
 						}
 					} else if (firstWord.includes('midn')) {
-						const time = date.hour(0).subtract(30, 'm');
+						const time = date.hour(23).add(30, 'm');
 						const event = words.slice(1).join(' ');
 						const timeChannelID = time.unix() + msgChannel;
 						if (!schedule.scheduledJobs[timeChannelID]) {

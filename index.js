@@ -54,13 +54,13 @@ async function sendPosts(newPosts) {
 				.get(channelID)
 				.send(
 					'```md\n' +
-						'> Author: ' +
+						'< Author: ' +
 						author +
-						'\n> Subject: ' +
+						' >\n< Subject: ' +
 						subject +
-						'\n> Date: ' +
+						' >\n< Date: ' +
 						date +
-						'\n\n' +
+						' >\n\n' +
 						body.split('**').join('') +
 						'```',
 					{

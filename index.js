@@ -38,7 +38,7 @@ async function setCotw(targetPostNumber) {
 
 async function sendPosts(newPosts) {
 	try {
-		for (i = 0; i < newPosts.length; i++) {
+		for (i = newPosts.length - 1; i >= 0; i--) {
 			const post = newPosts[i];
 			const data = await axios.get(post);
 			const $ = cheerio.load(data.data);
@@ -49,14 +49,14 @@ async function sendPosts(newPosts) {
 			client.channels.cache
 				.get(channelID)
 				.send(
-					'```\n' +
-						'Author: ' +
+					'```py\n' +
+						'@ Author: ' +
 						author +
-						'\nSubject: ' +
+						'\n@ Subject: ' +
 						subject +
-						'\nDate: ' +
+						'\n@ Date: ' +
 						date +
-						'\nBody: \n' +
+						'\n\n' +
 						body.split('**').join('') +
 						'```',
 					{

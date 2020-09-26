@@ -13,7 +13,12 @@ schedule.scheduleJob('*/5 * * * *', async function() {
 	const newPosts = await getPosts();
 	console.log('newPosts', newPosts);
 	await sendPosts(newPosts);
+	client.destroy();
 });
+
+async function destroyClient() {
+	client.destroy();
+}
 
 async function updatePostNumber(client, postno) {
 	await client.db('cotw').collection('postno').updateOne({ _id: 'postno' }, { $set: { postno } }, { upsert: true });
@@ -112,6 +117,8 @@ client.on('message', async (msg) => {
 			await sendPosts(newPosts);
 		} else if (message[0] === '!cotwset') {
 			setCotw(message[1]);
+		} else if (message[0] === '!destroy') {
+			destroyClient();
 		}
 	} catch (e) {
 		console.log(e);

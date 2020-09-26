@@ -13,7 +13,6 @@ schedule.scheduleJob('*/5 * * * *', async function() {
 	const newPosts = await getPosts();
 	console.log('newPosts', newPosts);
 	await sendPosts(newPosts);
-	client.destroy();
 });
 
 async function destroyClient() {

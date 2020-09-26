@@ -110,7 +110,7 @@ client.on('ready', () => {
 client.on('message', async (msg) => {
 	try {
 		const message = msg.content.split(' ');
-		if (message[0] === '!cotw') {
+		if (message[0] === '!cotwforcerun') {
 			const newPosts = await getPosts();
 			console.log('newPosts', newPosts);
 			await sendPosts(newPosts);

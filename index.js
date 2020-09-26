@@ -1,5 +1,4 @@
 require('dotenv').config();
-// const puppeteer = require('puppeteer');
 const Discord = require('discord.js');
 const { MongoClient } = require('mongodb');
 const axios = require('axios');
@@ -7,7 +6,7 @@ const cheerio = require('cheerio');
 const schedule = require('node-schedule');
 const client = new Discord.Client();
 const cotwBoard = 'http://boards.nexustk.com/Chronicles/index.html';
-const channelID = '759519648709345300';
+const channelID = process.env.CHANNEL_ID;
 
 schedule.scheduleJob('*/5 * * * *', async function() {
 	console.log('running at: ' + Date.now());

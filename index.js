@@ -54,12 +54,12 @@ async function sendPosts(newPosts) {
 			client.channels.cache
 				.get(channelID)
 				.send(
-					'```py\n' +
-						'@ Author: ' +
+					'```md\n' +
+						'> Author: ' +
 						author +
-						'\n@ Subject: ' +
+						'\n> Subject: ' +
 						subject +
-						'\n@ Date: ' +
+						'\n> Date: ' +
 						date +
 						'\n\n' +
 						body.split('**').join('') +

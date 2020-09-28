@@ -23,8 +23,8 @@ const j = new CronJob(
 	false, // runOnInit
 );
 
-async function start() {
-	await client.login(process.env.COTW_BOT_TOKEN);
+function start() {
+	client.login(process.env.COTW_BOT_TOKEN);
 	j.start();
 }
 
@@ -36,7 +36,6 @@ async function restartClient() {
 	} catch (e) {
 		console.log(e);
 	} finally {
-		j.start();
 		console.log('restarting...');
 		start();
 	}

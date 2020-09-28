@@ -1,46 +1,67 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 const { MongoClient } = require('mongodb');
+const { CronJob } = require('cron');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const schedule = require('node-schedule');
 const client = new Discord.Client();
 const cotwBoard = 'http://boards.nexustk.com/Chronicles/index.html';
 const channelID = process.env.CHANNEL_ID;
 
-schedule.scheduleJob('*/5 * * * *', async function() {
-	console.log('running at: ' + Date.now());
-	const newPosts = await getPosts();
-	console.log('newPosts', newPosts);
-	await sendPosts(newPosts);
-});
+const j = new CronJob(
+	'*/5 * * * *',
+	async function() {
+		console.log('running at: ' + Date.now());
+		const { links, topPost } = await getPosts();
+		console.log('newPosts: ', links, 'topPost: ', topPost);
+		sendPosts(links, topPost);
+	},
+	null, // onComplete
+	false, // start automatically
+	'America/Los_Angeles',
+	null, // context
+	false, // runOnInit
+);
 
-async function destroyClient() {
-	client.destroy();
+async function start() {
+	await client.login(process.env.COTW_BOT_TOKEN);
+	j.start();
 }
 
-async function updatePostNumber(client, postno) {
-	await client.db('cotw').collection('postno').updateOne({ _id: 'postno' }, { $set: { postno } }, { upsert: true });
-}
-
-async function getPostNumber(client) {
-	return await client.db('cotw').collection('postno').findOne({ _id: 'postno' }, { _id: 0 });
-}
-
-async function setCotw(targetPostNumber) {
-	const mongoClient = new MongoClient(process.env.MONGO_URL);
+async function restartClient() {
 	try {
-		console.log('setting post number');
-		await mongoClient.connect();
-		await updatePostNumber(mongoClient, Number(targetPostNumber));
+		j.stop();
+		console.log('rescheduling...');
+		client.destroy();
 	} catch (e) {
 		console.log(e);
 	} finally {
-		await mongoClient.close();
+		j.start();
+		console.log('restarting...');
+		start();
 	}
 }
 
-async function sendPosts(newPosts) {
+async function updatePostNumber(postno) {
+	const mongoClient = new MongoClient(process.env.MONGO_URL);
+	await mongoClient.connect();
+	await mongoClient
+		.db('cotw')
+		.collection('postno')
+		.updateOne({ _id: 'postno' }, { $set: { postno } }, { upsert: true });
+	await mongoClient.close();
+	return;
+}
+
+async function getPostNumber() {
+	const mongoClient = new MongoClient(process.env.MONGO_URL);
+	await mongoClient.connect();
+	const postNumber = await mongoClient.db('cotw').collection('postno').findOne({ _id: 'postno' }, { _id: 0 });
+	await mongoClient.close();
+	return postNumber;
+}
+
+async function sendPosts(newPosts, topPost) {
 	try {
 		for (i = newPosts.length - 1; i >= 0; i--) {
 			const post = newPosts[i];
@@ -50,7 +71,7 @@ async function sendPosts(newPosts) {
 			const subject = $('tr:contains("Subject :") td').eq(1).text();
 			const date = $('tr:contains("Date :") td').eq(1).text();
 			const body = $('tr:nth-child(5) td').text();
-			client.channels.cache
+			await client.channels.cache
 				.get(channelID)
 				.send(
 					'```md\n' +
@@ -71,19 +92,19 @@ async function sendPosts(newPosts) {
 					},
 				);
 		}
+		await updatePostNumber(topPost);
+		return;
 	} catch (e) {
 		console.log(e);
 	}
 }
 
 async function getPosts() {
-	const mongoClient = new MongoClient(process.env.MONGO_URL);
 	try {
 		console.log('start');
-		await mongoClient.connect();
 		const data = await axios.get(cotwBoard);
 		const $ = cheerio.load(data.data);
-		const { postno } = await getPostNumber(mongoClient);
+		const { postno } = await getPostNumber();
 		let topPost = postno;
 		const links = [];
 		$('tr td:first-child a').each(function() {
@@ -95,12 +116,9 @@ async function getPosts() {
 				links.push(`http://boards.nexustk.com/Chronicles/${$(this).attr('href')}`);
 			}
 		});
-		await updatePostNumber(mongoClient, topPost);
-		return links;
+		return { links, topPost };
 	} catch (e) {
 		console.log(e);
-	} finally {
-		await mongoClient.close();
 	}
 }
 
@@ -111,16 +129,17 @@ client.on('message', async (msg) => {
 	try {
 		const message = msg.content.split(' ');
 		if (message[0] === '!cotwforcerun') {
-			const newPosts = await getPosts();
-			console.log('newPosts', newPosts);
-			await sendPosts(newPosts);
+			const { links, topPost } = await getPosts();
+			console.log('newPosts: ', links, 'topPost: ', topPost);
+			sendPosts(links, topPost);
 		} else if (message[0] === '!cotwset') {
-			setCotw(message[1]);
-		} else if (message[0] === '!destroy') {
-			destroyClient();
+			console.log('setting post number...');
+			updatePostNumber(Number(message[1]));
+		} else if (message[0] === '!cotwrestart') {
+			restartClient();
 		}
 	} catch (e) {
 		console.log(e);
 	}
 });
-client.login(process.env.COTW_BOT_TOKEN);
+start();

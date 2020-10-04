@@ -14,7 +14,7 @@ const j = new CronJob(
 		console.log('running at: ' + Date.now());
 		const { links, topPost } = await getPosts();
 		console.log('newPosts: ', links, 'topPost: ', topPost);
-		sendPosts(links, topPost);
+		await sendPosts(links, topPost);
 	},
 	null, // onComplete
 	false, // start automatically
@@ -108,11 +108,9 @@ async function getPosts() {
 		const links = [];
 		$('tr td:first-child a').each(function() {
 			const postNumber = Number($(this).text());
-			if (postNumber > topPost) {
-				topPost = postNumber;
-			}
 			if (postNumber > postno) {
 				links.push(`http://boards.nexustk.com/Chronicles/${$(this).attr('href')}`);
+				topPost = postNumber;
 			}
 		});
 		return { links, topPost };

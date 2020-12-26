@@ -6,6 +6,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const client = new Discord.Client();
 
+// Constants
 const CHRONICLES = "Chronicles";
 const BUY = "MarketB";
 const SELL = "MarketS";
@@ -19,60 +20,32 @@ const STORY_CONTEST = "Story";
 const HUNTING = "Hunting";
 const CARNAGE = "Carnage";
 
-const boardsList = [
-  CHRONICLES,
-  BUY,
-  SELL,
-  COMMUNITY,
-  DREAM_WEAVER,
-  DREAMS,
-  COMM_EVENTS,
-  WHISPERING_WINDS,
-  POETRY,
-  STORY_CONTEST,
-  HUNTING,
-  CARNAGE,
-];
+const boardsLookupTable = {
+  [CHRONICLES]: process.env.CHRONICLES,
+  [BUY]: process.env.BUY,
+  [SELL]: process.env.SELL,
+  [COMMUNITY]: process.env.COMMUNITY,
+  [DREAM_WEAVER]: process.env.DREAM_WEAVER,
+  [DREAMS]: process.env.DREAMS,
+  [COMM_EVENTS]: process.env.COMM_EVENTS,
+  [WHISPERING_WINDS]: process.env.WHISPERING_WINDS,
+  [POETRY]: process.env.POETRY,
+  [STORY_CONTEST]: process.env.STORY_CONTEST,
+  [HUNTING]: process.env.HUNTING,
+  [CARNAGE]: process.env.CARNAGE,
+};
 
-function getChannelID(board) {
-  switch (board) {
-    case CHRONICLES:
-      return process.env.CHRONICLES;
-    case BUY:
-      return process.env.BUY;
-    case SELL:
-      return process.env.SELL;
-    case COMMUNITY:
-      return process.env.COMMUNITY;
-    case DREAM_WEAVER:
-      return process.env.DREAM_WEAVER;
-    case DREAMS:
-      return process.env.DREAMS;
-    case COMM_EVENTS:
-      return process.env.COMM_EVENTS;
-    case WHISPERING_WINDS:
-      return process.env.WHISPERING_WINDS;
-    case POETRY:
-      return process.env.POETRY;
-    case STORY_CONTEST:
-      return process.env.STORY_CONTEST;
-    case HUNTING:
-      return process.env.HUNTING;
-    case CARNAGE:
-      return process.env.CARNAGE;
-    default:
-      return null;
-  }
-}
+const boardsKeys = Object.keys(boardsLookupTable);
 
 const j = new CronJob(
   "0 */5 * * * *",
   async function () {
     console.log("running at: " + Date.now());
     try {
-      for (let i = 0; i < boardsList.length; i++) {
-        const board = boardsList[i];
-        const { links, topPost } = await getPosts(board);
+      for (let i = 0; i < boardsKeys.length; i++) {
+        const board = boardsKeys[i];
+        const { postno } = await getPostNumber(board);
+        const { links, topPost } = await getPosts(board, postno);
         console.log(
           "board: ",
           board,
@@ -84,7 +57,7 @@ const j = new CronJob(
         await sendPosts(links, topPost, board);
       }
     } catch (e) {
-      console.log(e);
+      console.log("an error happened with CronJob");
     }
   },
   null, // onComplete
@@ -94,16 +67,20 @@ const j = new CronJob(
   false, // runOnInit
 );
 
+function stop() {
+  console.log("stopping jobs...");
+  j.stop();
+}
+
 function start() {
-  console.log("start");
-  client.login(process.env.COTW_BOT_TOKEN);
+  console.log("starting...");
+  client.login(process.env.BOARDS_BOT_TOKEN);
   j.start();
 }
 
 async function restartClient() {
   try {
-    j.stop();
-    console.log("rescheduling...");
+    stop();
     client.destroy();
   } catch (e) {
     console.log(e);
@@ -113,7 +90,7 @@ async function restartClient() {
   }
 }
 
-async function updatePostNumber(postno, board) {
+async function updatePostNumber(board, postno) {
   const mongoClient = new MongoClient(process.env.MONGO_URL);
   await mongoClient.connect();
   await mongoClient
@@ -146,7 +123,7 @@ async function sendPosts(newPosts, topPost, board) {
       const date = $('tr:contains("Date :") td').eq(1).text();
       const body = $("tr:nth-child(5) td").text();
       await client.channels.cache
-        .get(getChannelID(board))
+        .get(boardsLookupTable[board])
         .send(
           "```md\n" +
             "> Date: " +
@@ -168,26 +145,22 @@ async function sendPosts(newPosts, topPost, board) {
           },
         );
     }
-    await updatePostNumber(topPost, board);
+    await updatePostNumber(board, topPost);
     return;
   } catch (e) {
     console.log(e);
   }
 }
 
-async function getPosts(board) {
+async function getPosts(board, prevTop) {
   try {
     const data = await axios.get(
       `http://boards.nexustk.com/${board}/index.html`,
     );
     const $ = cheerio.load(data.data);
     const posts = $("tr td:first-child a");
-    const { postno } = await getPostNumber(board);
-    const prevTop = postno;
     const newTop = Number($(posts[0]).text());
-
     const links = [];
-
     for (let i = posts.length - 1; i >= 0; i--) {
       const postNumber = Number($(posts[i]).text());
       if (postNumber > prevTop) {
@@ -199,49 +172,83 @@ async function getPosts(board) {
 
     return { links, topPost: newTop };
   } catch (e) {
-    console.log(e);
+    console.log(`an error in getPosts getting ${board}`);
+    return { links: [], topPost: prevTop };
   }
 }
 
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-client.on("message", async (msg) => {
+async function forceRun(message) {
+  if (message[1] && message[1] === "all") {
+    try {
+      for (let i = 0; i < boardsKeys.length; i++) {
+        const board = boardsKeys[i];
+        const { postno } = await getPostNumber(board);
+        const { links, topPost } = await getPosts(board, postno);
+        console.log("newPosts: ", links, "topPost: ", topPost);
+        return sendPosts(links, topPost, board);
+      }
+    } catch (e) {
+      console.log(e, "in forcerun command");
+    }
+  } else if (!boardsLookupTable[message[1]]) {
+    console.log(
+      `${message[1]} board not found. Choose from the following: ${boardsKeys} or all.`,
+    );
+    return;
+  } else if (
+    boardsLookupTable[message[1]] &&
+    typeof boardsLookupTable[message[1]] === "string"
+  ) {
+    const { postno } = await getPostNumber(message[1]);
+    const { links, topPost } = await getPosts(message[1], postno);
+    console.log("newPosts: ", links, "topPost: ", topPost);
+    return sendPosts(links, topPost, message[1]);
+  } else {
+    console.log("something went wrong, idiot");
+    return;
+  }
+}
+
+function setBoard(message) {
+  if (message[1] && message[1] === "all") {
+    for (let i = 0; i < boardsKeys.length; i++) {
+      updatePostNumber(boardsKeys[i], 9999);
+    }
+  } else if (!boardsLookupTable[message[1]]) {
+    console.log(
+      `${message[1]} board not found. Choose from the following: ${boardsKeys}`,
+    );
+    return;
+  }
+  if (!message[2] || !Number(message[2])) {
+    console.log("please enter a valid post number to set board to.");
+    return;
+  }
+  console.log(`setting post number of ${message[1]} to ${message[2]}...`);
+  updatePostNumber(message[1], Number(message[2]));
+}
+
+client.on("message", (msg) => {
   try {
     const message = msg.content.split(" ");
-    if (message[0] === "!cotwforcerun") {
-      try {
-        for (let i = 0; i < boardsList.length; i++) {
-          const board = boardsList[i];
-          const { links, topPost } = await getPosts(board);
-          console.log("newPosts: ", links, "topPost: ", topPost);
-          sendPosts(links, topPost, board);
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    } else if (message[0] === "!setall") {
-      try {
-        for (let i = 0; i < boardsList.length; i++) {
-          updatePostNumber(Number(message[1]), boardsList[i]);
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    } else if (message[0] === "!cotwset") {
-      console.log("setting post number...");
-      updatePostNumber(Number(message[1]), boardsList[0]);
-    } else if (message[0] === "!buyset") {
-      console.log("setting post number...");
-      updatePostNumber(Number(message[1]), boardsList[1]);
-    } else if (message[0] === "!sellset") {
-      console.log("setting post number...");
-      updatePostNumber(Number(message[1]), boardsList[2]);
-    } else if (message[0] === "!cotwrestart") {
+    if (message[0] === "!boardsforcerun") {
+      forceRun(message);
+    } else if (message[0] === "!setboard") {
+      setBoard(message);
+    } else if (message[0] === "!boardsrestart") {
       restartClient();
+    } else if (message[0] === "!boardsstart") {
+      start();
+    } else if (message[0] === "!boardsstop") {
+      stop();
     }
   } catch (e) {
     console.log(e);
   }
 });
+
+client.on("ready", () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
 start();

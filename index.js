@@ -74,7 +74,7 @@ function stop() {
 
 function start() {
   console.log("starting...");
-  client.login(process.env.BOARDS_BOT_TOKEN);
+  client.login(process.env.BOARD_BOT_TOKEN);
   cronJob.start();
 }
 

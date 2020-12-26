@@ -1,38 +1,38 @@
 require("dotenv").config();
 const Discord = require("discord.js");
 const { MongoClient } = require("mongodb");
-// const { CronJob } = require('cron');
+const { CronJob } = require("cron");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const client = new Discord.Client();
 const cotwBoard = "http://boards.nexustk.com/Chronicles/index.html";
 const channelID = process.env.CHANNEL_ID;
 
-// const j = new CronJob(
-// 	'*/5 * * * *',
-// 	async function() {
-// 		console.log('running at: ' + Date.now());
-// 		const { links, topPost } = await getPosts();
-// 		console.log('newPosts: ', links, 'topPost: ', topPost);
-// 		await sendPosts(links, topPost);
-// 	},
-// 	null, // onComplete
-// 	false, // start automatically
-// 	'America/Los_Angeles',
-// 	null, // context
-// 	false, // runOnInit
-// );
+const j = new CronJob(
+  "0 */5 * * * *",
+  async function () {
+    console.log("running at: " + Date.now());
+    const { links, topPost } = await getPosts();
+    console.log("newPosts: ", links, "topPost: ", topPost);
+    await sendPosts(links, topPost);
+  },
+  null, // onComplete
+  false, // start automatically
+  "America/Los_Angeles",
+  null, // context
+  false, // runOnInit
+);
 
 function start() {
   console.log("start");
   client.login(process.env.COTW_BOT_TOKEN);
-  // j.start();
+  j.start();
 }
 
 async function restartClient() {
   try {
-    // j.stop();
-    // console.log('rescheduling...');
+    j.stop();
+    console.log("rescheduling...");
     client.destroy();
   } catch (e) {
     console.log(e);
@@ -66,7 +66,7 @@ async function getPostNumber() {
 
 async function sendPosts(newPosts, topPost) {
   try {
-    for (i = newPosts.length - 1; i >= 0; i--) {
+    for (i = 0; i < newPosts.length; i++) {
       const post = newPosts[i];
       const data = await axios.get(post);
       const $ = cheerio.load(data.data);
@@ -109,16 +109,17 @@ async function getPosts() {
     const { postno } = await getPostNumber();
     let topPost = postno;
     const links = [];
-    $("tr td:first-child a").each(function () {
-      const postNumber = Number($(this).text());
-      console.log(topPost, postNumber);
+    const posts = $("tr td:first-child a");
+    for (let i = posts.length - 1; i >= 0; i--) {
+      const postNumber = Number($(posts[i]).text());
       if (postNumber > topPost) {
         links.push(
-          `http://boards.nexustk.com/Chronicles/${$(this).attr("href")}`,
+          `http://boards.nexustk.com/Chronicles/${$(posts[i]).attr("href")}`,
         );
         topPost = postNumber;
       }
-    });
+    }
+
     return { links, topPost };
   } catch (e) {
     console.log(e);

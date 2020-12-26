@@ -20,7 +20,7 @@ const STORY_CONTEST = "Story";
 const HUNTING = "Hunting";
 const CARNAGE = "Carnage";
 
-const boardsLookupTable = {
+const boardLookupTable = {
   [CHRONICLES]: process.env.CHRONICLES,
   [BUY]: process.env.BUY,
   [SELL]: process.env.SELL,
@@ -35,15 +35,15 @@ const boardsLookupTable = {
   [CARNAGE]: process.env.CARNAGE,
 };
 
-const boardsKeys = Object.keys(boardsLookupTable);
+const boardKeys = Object.keys(boardLookupTable);
 
 const j = new CronJob(
   "0 */5 * * * *",
   async function () {
     console.log("running at: " + Date.now());
     try {
-      for (let i = 0; i < boardsKeys.length; i++) {
-        const board = boardsKeys[i];
+      for (let i = 0; i < boardKeys.length; i++) {
+        const board = boardKeys[i];
         const { postno } = await getPostNumber(board);
         const { links, topPost } = await getPosts(board, postno);
         console.log(
@@ -123,7 +123,7 @@ async function sendPosts(newPosts, topPost, board) {
       const date = $('tr:contains("Date :") td').eq(1).text();
       const body = $("tr:nth-child(5) td").text();
       await client.channels.cache
-        .get(boardsLookupTable[board])
+        .get(boardLookupTable[board])
         .send(
           "```md\n" +
             "> Date: " +
@@ -180,8 +180,8 @@ async function getPosts(board, prevTop) {
 async function forceRun(message) {
   if (message[1] && message[1] === "all") {
     try {
-      for (let i = 0; i < boardsKeys.length; i++) {
-        const board = boardsKeys[i];
+      for (let i = 0; i < boardKeys.length; i++) {
+        const board = boardKeys[i];
         const { postno } = await getPostNumber(board);
         const { links, topPost } = await getPosts(board, postno);
         console.log("newPosts: ", links, "topPost: ", topPost);
@@ -190,14 +190,14 @@ async function forceRun(message) {
     } catch (e) {
       console.log(e, "in forcerun command");
     }
-  } else if (!boardsLookupTable[message[1]]) {
+  } else if (!boardLookupTable[message[1]]) {
     console.log(
-      `${message[1]} board not found. Choose from the following: ${boardsKeys} or all.`,
+      `${message[1]} board not found. Choose from the following: ${boardKeys} or all.`,
     );
     return;
   } else if (
-    boardsLookupTable[message[1]] &&
-    typeof boardsLookupTable[message[1]] === "string"
+    boardLookupTable[message[1]] &&
+    typeof boardLookupTable[message[1]] === "string"
   ) {
     const { postno } = await getPostNumber(message[1]);
     const { links, topPost } = await getPosts(message[1], postno);
@@ -211,12 +211,12 @@ async function forceRun(message) {
 
 function setBoard(message) {
   if (message[1] && message[1] === "all") {
-    for (let i = 0; i < boardsKeys.length; i++) {
-      updatePostNumber(boardsKeys[i], 9999);
+    for (let i = 0; i < boardKeys.length; i++) {
+      updatePostNumber(boardKeys[i], 9999);
     }
-  } else if (!boardsLookupTable[message[1]]) {
+  } else if (!boardLookupTable[message[1]]) {
     console.log(
-      `${message[1]} board not found. Choose from the following: ${boardsKeys}`,
+      `${message[1]} board not found. Choose from the following: ${boardKeys}`,
     );
     return;
   }

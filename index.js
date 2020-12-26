@@ -5,7 +5,7 @@ const { CronJob } = require("cron");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const client = new Discord.Client();
-const cotwBoard = "http://boards.nexustk.com/Chronicles/index.html";
+const targetBoard = "http://boards.nexustk.com/Chronicles/index.html";
 const channelID = process.env.CHANNEL_ID;
 
 const j = new CronJob(
@@ -104,23 +104,25 @@ async function sendPosts(newPosts, topPost) {
 
 async function getPosts() {
   try {
-    const data = await axios.get(cotwBoard);
+    const data = await axios.get(targetBoard);
     const $ = cheerio.load(data.data);
-    const { postno } = await getPostNumber();
-    let topPost = postno;
-    const links = [];
     const posts = $("tr td:first-child a");
+    const { postno } = await getPostNumber();
+    const prevTop = postno;
+    const newTop = Number($(posts[0]).text());
+
+    const links = [];
+
     for (let i = posts.length - 1; i >= 0; i--) {
       const postNumber = Number($(posts[i]).text());
-      if (postNumber > topPost) {
+      if (postNumber > prevTop) {
         links.push(
           `http://boards.nexustk.com/Chronicles/${$(posts[i]).attr("href")}`,
         );
-        topPost = postNumber;
       }
     }
 
-    return { links, topPost };
+    return { links, topPost: newTop };
   } catch (e) {
     console.log(e);
   }

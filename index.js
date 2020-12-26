@@ -5,16 +5,87 @@ const { CronJob } = require("cron");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const client = new Discord.Client();
-const targetBoard = "http://boards.nexustk.com/Chronicles/index.html";
-const channelID = process.env.CHANNEL_ID;
+
+const CHRONICLES = "Chronicles";
+const BUY = "MarketB";
+const SELL = "MarketS";
+const COMMUNITY = "Community";
+const DREAM_WEAVER = "DreamWeaver";
+const DREAMS = "Dreams";
+const COMM_EVENTS = "ComEvents";
+const WHISPERING_WINDS = "WhisperingWinds";
+const POETRY = "Poetry";
+const STORY_CONTEST = "Story";
+const HUNTING = "Hunting";
+const CARNAGE = "Carnage";
+
+const boardsList = [
+  CHRONICLES,
+  BUY,
+  SELL,
+  COMMUNITY,
+  DREAM_WEAVER,
+  DREAMS,
+  COMM_EVENTS,
+  WHISPERING_WINDS,
+  POETRY,
+  STORY_CONTEST,
+  HUNTING,
+  CARNAGE,
+];
+
+function getChannelID(board) {
+  switch (board) {
+    case CHRONICLES:
+      return process.env.CHRONICLES;
+    case BUY:
+      return process.env.BUY;
+    case SELL:
+      return process.env.SELL;
+    case COMMUNITY:
+      return process.env.COMMUNITY;
+    case DREAM_WEAVER:
+      return process.env.DREAM_WEAVER;
+    case DREAMS:
+      return process.env.DREAMS;
+    case COMM_EVENTS:
+      return process.env.COMM_EVENTS;
+    case WHISPERING_WINDS:
+      return process.env.WHISPERING_WINDS;
+    case POETRY:
+      return process.env.POETRY;
+    case STORY_CONTEST:
+      return process.env.STORY_CONTEST;
+    case HUNTING:
+      return process.env.HUNTING;
+    case CARNAGE:
+      return process.env.CARNAGE;
+    default:
+      return null;
+  }
+}
 
 const j = new CronJob(
   "0 */5 * * * *",
   async function () {
     console.log("running at: " + Date.now());
-    const { links, topPost } = await getPosts();
-    console.log("newPosts: ", links, "topPost: ", topPost);
-    await sendPosts(links, topPost);
+    try {
+      for (let i = 0; i < boardsList.length; i++) {
+        const board = boardsList[i];
+        const { links, topPost } = await getPosts(board);
+        console.log(
+          "board: ",
+          board,
+          "newPosts: ",
+          links,
+          "topPost: ",
+          topPost,
+        );
+        await sendPosts(links, topPost, board);
+      }
+    } catch (e) {
+      console.log(e);
+    }
   },
   null, // onComplete
   false, // start automatically
@@ -42,29 +113,29 @@ async function restartClient() {
   }
 }
 
-async function updatePostNumber(postno) {
+async function updatePostNumber(postno, board) {
   const mongoClient = new MongoClient(process.env.MONGO_URL);
   await mongoClient.connect();
   await mongoClient
-    .db("cotw")
-    .collection("postno")
+    .db("boards")
+    .collection(board)
     .updateOne({ _id: "postno" }, { $set: { postno } }, { upsert: true });
   await mongoClient.close();
   return;
 }
 
-async function getPostNumber() {
+async function getPostNumber(board) {
   const mongoClient = new MongoClient(process.env.MONGO_URL);
   await mongoClient.connect();
   const postNumber = await mongoClient
-    .db("cotw")
-    .collection("postno")
+    .db("boards")
+    .collection(board)
     .findOne({ _id: "postno" }, { _id: 0 });
   await mongoClient.close();
   return postNumber;
 }
 
-async function sendPosts(newPosts, topPost) {
+async function sendPosts(newPosts, topPost, board) {
   try {
     for (i = 0; i < newPosts.length; i++) {
       const post = newPosts[i];
@@ -75,15 +146,17 @@ async function sendPosts(newPosts, topPost) {
       const date = $('tr:contains("Date :") td').eq(1).text();
       const body = $("tr:nth-child(5) td").text();
       await client.channels.cache
-        .get(channelID)
+        .get(getChannelID(board))
         .send(
           "```md\n" +
+            "> Date: " +
+            date +
+            "\n" +
             "< Author: " +
             author +
-            " >\n< Subject: " +
+            " >\n" +
+            "< Subject: " +
             subject +
-            " >\n< Date: " +
-            date +
             " >\n\n" +
             body.split("**").join("") +
             "```",
@@ -95,19 +168,21 @@ async function sendPosts(newPosts, topPost) {
           },
         );
     }
-    await updatePostNumber(topPost);
+    await updatePostNumber(topPost, board);
     return;
   } catch (e) {
     console.log(e);
   }
 }
 
-async function getPosts() {
+async function getPosts(board) {
   try {
-    const data = await axios.get(targetBoard);
+    const data = await axios.get(
+      `http://boards.nexustk.com/${board}/index.html`,
+    );
     const $ = cheerio.load(data.data);
     const posts = $("tr td:first-child a");
-    const { postno } = await getPostNumber();
+    const { postno } = await getPostNumber(board);
     const prevTop = postno;
     const newTop = Number($(posts[0]).text());
 
@@ -117,7 +192,7 @@ async function getPosts() {
       const postNumber = Number($(posts[i]).text());
       if (postNumber > prevTop) {
         links.push(
-          `http://boards.nexustk.com/Chronicles/${$(posts[i]).attr("href")}`,
+          `http://boards.nexustk.com/${board}/${$(posts[i]).attr("href")}`,
         );
       }
     }
@@ -135,12 +210,33 @@ client.on("message", async (msg) => {
   try {
     const message = msg.content.split(" ");
     if (message[0] === "!cotwforcerun") {
-      const { links, topPost } = await getPosts();
-      console.log("newPosts: ", links, "topPost: ", topPost);
-      sendPosts(links, topPost);
+      try {
+        for (let i = 0; i < boardsList.length; i++) {
+          const board = boardsList[i];
+          const { links, topPost } = await getPosts(board);
+          console.log("newPosts: ", links, "topPost: ", topPost);
+          sendPosts(links, topPost, board);
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    } else if (message[0] === "!setall") {
+      try {
+        for (let i = 0; i < boardsList.length; i++) {
+          updatePostNumber(Number(message[1]), boardsList[i]);
+        }
+      } catch (e) {
+        console.log(e);
+      }
     } else if (message[0] === "!cotwset") {
       console.log("setting post number...");
-      updatePostNumber(Number(message[1]));
+      updatePostNumber(Number(message[1]), boardsList[0]);
+    } else if (message[0] === "!buyset") {
+      console.log("setting post number...");
+      updatePostNumber(Number(message[1]), boardsList[1]);
+    } else if (message[0] === "!sellset") {
+      console.log("setting post number...");
+      updatePostNumber(Number(message[1]), boardsList[2]);
     } else if (message[0] === "!cotwrestart") {
       restartClient();
     }

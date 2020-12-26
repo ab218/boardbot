@@ -219,8 +219,7 @@ function setBoard(message) {
       `${message[1]} board not found. Choose from the following: ${boardKeys}`,
     );
     return;
-  }
-  if (!message[2] || !Number(message[2])) {
+  } else if (!message[2] || !Number(message[2])) {
     console.log("please enter a valid post number to set board to.");
     return;
   }

@@ -37,7 +37,7 @@ const boardLookupTable = {
 
 const boardKeys = Object.keys(boardLookupTable);
 
-const j = new CronJob(
+const cronJob = new CronJob(
   "0 */5 * * * *",
   async function () {
     console.log("running at: " + Date.now());
@@ -69,13 +69,13 @@ const j = new CronJob(
 
 function stop() {
   console.log("stopping jobs...");
-  j.stop();
+  cronJob.stop();
 }
 
 function start() {
   console.log("starting...");
   client.login(process.env.BOARDS_BOT_TOKEN);
-  j.start();
+  cronJob.start();
 }
 
 async function restartClient() {

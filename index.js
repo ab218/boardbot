@@ -195,7 +195,7 @@ async function getAllPosts(board, prevTop) {
       const posts = $("tr td:first-child a");
       for (let i = posts.length - 1; i >= 0; i--) {
         const postNumber = Number($(posts[i]).text());
-        if (postNumber > prevTop - 1) {
+        if (postNumber > prevTop) {
           links.push(
             `http://boards.nexustk.com/${board}/${$(posts[i]).attr("href")}`,
           );

@@ -139,6 +139,7 @@ async function sendPosts(newPosts, topPost, board) {
             "```",
           {
             split: {
+              char: " ",
               prepend: "```\n",
               append: "```",
             },
@@ -171,6 +172,37 @@ async function getPosts(board, prevTop) {
     }
 
     return { links, topPost: newTop };
+  } catch (e) {
+    console.log(`an error in getPosts getting ${board}`);
+    return { links: [], topPost: prevTop };
+  }
+}
+
+async function getAllPosts(board, prevTop) {
+  function isIZero(i) {
+    if (i === 0) {
+      return "";
+    }
+    return i;
+  }
+  try {
+    const links = [];
+    for (let i = 3; i >= 0; i--) {
+      const data = await axios.get(
+        `http://boards.nexustk.com/${board}/index${isIZero(i)}.html`,
+      );
+      const $ = cheerio.load(data.data);
+      const posts = $("tr td:first-child a");
+      for (let i = posts.length - 1; i >= 0; i--) {
+        const postNumber = Number($(posts[i]).text());
+        if (postNumber > prevTop - 1) {
+          links.push(
+            `http://boards.nexustk.com/${board}/${$(posts[i]).attr("href")}`,
+          );
+        }
+      }
+    }
+    return { links, topPost: 1114 };
   } catch (e) {
     console.log(`an error in getPosts getting ${board}`);
     return { links: [], topPost: prevTop };

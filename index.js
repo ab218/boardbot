@@ -187,7 +187,7 @@ async function getAllPosts(board, prevTop) {
   }
   try {
     const links = [];
-    for (let i = 3; i >= 0; i--) {
+    for (let i = 25; i >= 0; i--) {
       const data = await axios.get(
         `http://boards.nexustk.com/${board}/index${isIZero(i)}.html`,
       );

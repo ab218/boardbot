@@ -38,7 +38,7 @@ const boardLookupTable = {
 const boardKeys = Object.keys(boardLookupTable);
 
 const cronJob = new CronJob(
-  "0 */5 * * * *",
+  "0 */15 * * * *",
   async function () {
     console.log("running at: " + Date.now());
     try {
@@ -116,6 +116,8 @@ async function sendPosts(newPosts, topPost, board) {
   try {
     for (i = 0; i < newPosts.length; i++) {
       const post = newPosts[i];
+      const linkURL = post.split(".html")[0];
+      const postNumber = linkURL.slice(linkURL.length - 4);
       const data = await axios.get(post);
       const $ = cheerio.load(data.data);
       const author = $('tr:contains("Author :") td').eq(1).text();
@@ -126,6 +128,9 @@ async function sendPosts(newPosts, topPost, board) {
         .get(boardLookupTable[board])
         .send(
           "```md\n" +
+            "#" +
+            postNumber +
+            "\n" +
             "> Date: " +
             date +
             "\n" +

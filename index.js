@@ -5,6 +5,7 @@ const { CronJob } = require("cron");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const client = new Discord.Client();
+const mongoClient = new MongoClient(process.env.MONGO_URL);
 
 // Constants
 const CHRONICLES = "Chronicles";
@@ -91,24 +92,18 @@ async function restartClient() {
 }
 
 async function updatePostNumber(board, postno) {
-  const mongoClient = new MongoClient(process.env.MONGO_URL);
-  await mongoClient.connect();
   await mongoClient
     .db("boards")
     .collection(board)
     .updateOne({ _id: "postno" }, { $set: { postno } }, { upsert: true });
-  await mongoClient.close();
   return;
 }
 
 async function getPostNumber(board) {
-  const mongoClient = new MongoClient(process.env.MONGO_URL);
-  await mongoClient.connect();
   const postNumber = await mongoClient
     .db("boards")
     .collection(board)
     .findOne({ _id: "postno" }, { _id: 0 });
-  await mongoClient.close();
   return postNumber;
 }
 
@@ -222,7 +217,7 @@ async function forceRun(message) {
         const { postno } = await getPostNumber(board);
         const { links, topPost } = await getPosts(board, postno);
         console.log("newPosts: ", links, "topPost: ", topPost);
-        return sendPosts(links, topPost, board);
+        sendPosts(links, topPost, board);
       }
     } catch (e) {
       console.log(e, "in forcerun command");
@@ -264,6 +259,11 @@ function setBoard(message) {
   updatePostNumber(message[1], Number(message[2]));
 }
 
+client.on("ready", () => {
+  mongoClient.connect();
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
 client.on("message", (msg) => {
   try {
     const message = msg.content.split(" ");
@@ -281,10 +281,6 @@ client.on("message", (msg) => {
   } catch (e) {
     console.log(e);
   }
-});
-
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`);
 });
 
 start();

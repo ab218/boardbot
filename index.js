@@ -91,20 +91,18 @@ async function restartClient() {
   }
 }
 
-async function updatePostNumber(board, postno) {
-  await mongoClient
+function updatePostNumber(board, postno) {
+  return mongoClient
     .db("boards")
-    .collection(board)
-    .updateOne({ _id: "postno" }, { $set: { postno } }, { upsert: true });
-  return;
+    .collection("boards")
+    .updateOne({ _id: board }, { $set: { postno } }, { upsert: true });
 }
 
-async function getPostNumber(board) {
-  const postNumber = await mongoClient
+function getPostNumber(board) {
+  return mongoClient
     .db("boards")
-    .collection(board)
-    .findOne({ _id: "postno" }, { _id: 0 });
-  return postNumber;
+    .collection("boards")
+    .findOne({ _id: board }, { _id: 0 });
 }
 
 async function sendPosts(newPosts, topPost, board) {
@@ -118,7 +116,7 @@ async function sendPosts(newPosts, topPost, board) {
       const author = $('tr:contains("Author :") td').eq(1).text();
       const subject = $('tr:contains("Subject :") td').eq(1).text();
       const date = $('tr:contains("Date :") td').eq(1).text();
-      const body = $("tr:nth-child(5) td").text();
+      const body = $("tr:nth-child(5) td").text().split("<b>").join("");
       await client.channels.cache
         .get(boardLookupTable[board])
         .send(
@@ -170,7 +168,6 @@ async function getPosts(board, prevTop) {
         );
       }
     }
-
     return { links, topPost: newTop };
   } catch (e) {
     console.log(`an error in getPosts getting ${board}`);
@@ -179,7 +176,8 @@ async function getPosts(board, prevTop) {
 }
 
 async function forceRun(message) {
-  if (message[1] && message[1] === "all") {
+  const boardName = message[1];
+  if (boardName === "all") {
     try {
       for (let i = 0; i < boardKeys.length; i++) {
         const board = boardKeys[i];
@@ -191,19 +189,19 @@ async function forceRun(message) {
     } catch (e) {
       console.log(e, "in forcerun command");
     }
-  } else if (!boardLookupTable[message[1]]) {
+  } else if (!boardLookupTable[boardName]) {
     console.log(
-      `${message[1]} board not found. Choose from the following: ${boardKeys} or all.`,
+      `${boardName} board not found. Choose from the following: ${boardKeys} or all.`,
     );
     return;
   } else if (
-    boardLookupTable[message[1]] &&
-    typeof boardLookupTable[message[1]] === "string"
+    boardLookupTable[boardName] &&
+    typeof boardLookupTable[boardName] === "string"
   ) {
-    const { postno } = await getPostNumber(message[1]);
-    const { links, topPost } = await getPosts(message[1], postno);
+    const { postno } = await getPostNumber(boardName);
+    const { links, topPost } = await getPosts(boardName, postno);
     console.log("newPosts: ", links, "topPost: ", topPost);
-    return sendPosts(links, topPost, message[1]);
+    return sendPosts(links, topPost, boardName);
   } else {
     console.log("something went wrong, idiot");
     return;
@@ -211,21 +209,23 @@ async function forceRun(message) {
 }
 
 function setBoard(message) {
-  if (message[1] && message[1] === "all") {
+  const boardName = message[1];
+  const newTopPost = message[2];
+  if (boardName === "all") {
     for (let i = 0; i < boardKeys.length; i++) {
       updatePostNumber(boardKeys[i], 9999);
     }
-  } else if (!boardLookupTable[message[1]]) {
+  } else if (!boardLookupTable[boardName]) {
     console.log(
-      `${message[1]} board not found. Choose from the following: ${boardKeys}`,
+      `${boardName} board not found. Choose from the following: ${boardKeys}`,
     );
     return;
-  } else if (!message[2] || !Number(message[2])) {
+  } else if (!newTopPost || !Number(newTopPost)) {
     console.log("please enter a valid post number to set board to.");
     return;
   }
-  console.log(`setting post number of ${message[1]} to ${message[2]}...`);
-  updatePostNumber(message[1], Number(message[2]));
+  console.log(`setting post number of ${boardName} to ${newTopPost}...`);
+  updatePostNumber(boardName, Number(newTopPost));
 }
 
 client.on("ready", () => {
@@ -236,15 +236,16 @@ client.on("ready", () => {
 client.on("message", (msg) => {
   try {
     const message = msg.content.split(" ");
-    if (message[0] === "!boardsforcerun") {
+    const userCommand = message[0];
+    if (userCommand === "!boardsforcerun") {
       forceRun(message);
-    } else if (message[0] === "!setboard") {
+    } else if (userCommand === "!setboard") {
       setBoard(message);
-    } else if (message[0] === "!boardsrestart") {
+    } else if (userCommand === "!boardsrestart") {
       restartClient();
-    } else if (message[0] === "!boardsstart") {
+    } else if (userCommand === "!boardsstart") {
       start();
-    } else if (message[0] === "!boardsstop") {
+    } else if (userCommand === "!boardsstop") {
       stop();
     }
   } catch (e) {

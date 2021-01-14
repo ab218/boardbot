@@ -138,7 +138,7 @@ async function sendPosts(newPosts, topPost, board) {
           {
             split: {
               char: " ",
-              prepend: "```\n",
+              prepend: "```md\n",
               append: "```",
             },
           },

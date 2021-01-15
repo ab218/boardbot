@@ -57,7 +57,7 @@ const cronJob = new CronJob(
         await sendPosts(links, topPost, board);
       }
     } catch (e) {
-      console.log("an error happened with CronJob");
+      console.log("an error happened with CronJob: ", e);
     }
   },
   null, // onComplete

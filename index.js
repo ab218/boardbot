@@ -1,11 +1,10 @@
 require("dotenv").config();
 const Discord = require("discord.js");
-const { MongoClient } = require("mongodb");
 const { CronJob } = require("cron");
 const axios = require("axios");
 const cheerio = require("cheerio");
+const fs = require("fs");
 const client = new Discord.Client();
-const mongoClient = new MongoClient(process.env.MONGO_URL);
 
 // Constants
 const CHRONICLES = "Chronicles";
@@ -45,7 +44,7 @@ const cronJob = new CronJob(
     try {
       for (let i = 0; i < boardKeys.length; i++) {
         const board = boardKeys[i];
-        const { postno } = await getPostNumber(board);
+        const postno = getPostNumber(board);
         const { links, topPost } = await getPosts(board, postno);
         console.log(
           "board: ",
@@ -92,17 +91,22 @@ async function restartClient() {
 }
 
 function updatePostNumber(board, postno) {
-  return mongoClient
-    .db("boards")
-    .collection("boards")
-    .updateOne({ _id: board }, { $set: { postno } }, { upsert: true });
+  const data = JSON.parse(fs.readFileSync("./topBoardPosts.json"));
+  data[board] = postno;
+  fs.writeFileSync(
+    `./topBoardPosts.json`,
+    JSON.stringify(data),
+    function (err) {
+      if (err) {
+        console.error("Crap happens");
+      }
+    },
+  );
 }
 
 function getPostNumber(board) {
-  return mongoClient
-    .db("boards")
-    .collection("boards")
-    .findOne({ _id: board }, { _id: 0 });
+  const data = JSON.parse(fs.readFileSync("./topBoardPosts.json"));
+  return data[board];
 }
 
 async function sendPosts(newPosts, topPost, board) {
@@ -144,7 +148,7 @@ async function sendPosts(newPosts, topPost, board) {
           },
         );
     }
-    await updatePostNumber(board, topPost);
+    updatePostNumber(board, topPost);
     return;
   } catch (e) {
     console.log(e);
@@ -181,10 +185,10 @@ async function forceRun(message) {
     try {
       for (let i = 0; i < boardKeys.length; i++) {
         const board = boardKeys[i];
-        const { postno } = await getPostNumber(board);
+        const postno = getPostNumber(board);
         const { links, topPost } = await getPosts(board, postno);
         console.log("newPosts: ", links, "topPost: ", topPost);
-        sendPosts(links, topPost, board);
+        await sendPosts(links, topPost, board);
       }
     } catch (e) {
       console.log(e, "in forcerun command");
@@ -198,7 +202,7 @@ async function forceRun(message) {
     boardLookupTable[boardName] &&
     typeof boardLookupTable[boardName] === "string"
   ) {
-    const { postno } = await getPostNumber(boardName);
+    const postno = getPostNumber(boardName);
     const { links, topPost } = await getPosts(boardName, postno);
     console.log("newPosts: ", links, "topPost: ", topPost);
     return sendPosts(links, topPost, boardName);
@@ -215,6 +219,7 @@ function setBoard(message) {
     for (let i = 0; i < boardKeys.length; i++) {
       updatePostNumber(boardKeys[i], 9999);
     }
+    return;
   } else if (!boardLookupTable[boardName]) {
     console.log(
       `${boardName} board not found. Choose from the following: ${boardKeys}`,
@@ -229,7 +234,6 @@ function setBoard(message) {
 }
 
 client.on("ready", () => {
-  mongoClient.connect();
   console.log(`Logged in as ${client.user.tag}!`);
 });
 

@@ -120,7 +120,12 @@ async function sendPosts(newPosts, topPost, board) {
       const author = $('tr:contains("Author :") td').eq(1).text();
       const subject = $('tr:contains("Subject :") td').eq(1).text();
       const date = $('tr:contains("Date :") td').eq(1).text();
-      const body = $("tr:nth-child(5) td").text().split("<b>").join("");
+      const body = $("tr:nth-child(5) td")
+        .text()
+        .split("<b>")
+        .join("")
+        .split("<B>")
+        .join("");
       await client.channels.cache
         .get(boardLookupTable[board])
         .send(

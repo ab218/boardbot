@@ -2,6 +2,8 @@
 
 A [Discord](https://www.discord.com) bot that scrapes posts every 15 minutes from an [online BBS](https://boards.nexustk.com) and posts them to Discord channels.
 
+![App Screenshot](docs/boardbot.png)
+
 ## Project Setup
 
 1. Create discord bot through the [Discord Developer Portal](https://discord.com/developers/docs/intro) and invite the bot to your Discord server.

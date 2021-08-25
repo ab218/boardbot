@@ -19,6 +19,7 @@ const POETRY = "Poetry";
 const STORY_CONTEST = "Story";
 const HUNTING = "Hunting";
 const CARNAGE = "Carnage";
+const DRIFTING_WINDS = "DriftingWinds"
 
 const boardLookupTable = {
   [CHRONICLES]: process.env.CHRONICLES,
@@ -33,6 +34,7 @@ const boardLookupTable = {
   [STORY_CONTEST]: process.env.STORY_CONTEST,
   [HUNTING]: process.env.HUNTING,
   [CARNAGE]: process.env.CARNAGE,
+  [DRIFTING_WINDS]: process.env.DRIFTING_WINDS,
 };
 
 const boardKeys = Object.keys(boardLookupTable);

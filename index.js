@@ -155,11 +155,11 @@ async function sendPosts(newPosts, topPost, board) {
           },
         );
     }
-    return;
   } catch (e) {
     console.log(e);
   }
   updatePostNumber(board, topPost);
+  return
 }
 
 async function getPosts(board, prevTop) {

@@ -3,3 +3,4 @@
 node_modules/
 getAllPosts.js
 topBoardPosts.json
+.DS_Store

@@ -12,7 +12,7 @@
     "dotenv": "^8.2.0",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.35",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

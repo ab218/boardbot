@@ -11,7 +11,7 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.35",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {

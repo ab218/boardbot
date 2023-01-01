@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 function getPostNumber(board) {
-  const data = JSON.parse(fs.readFileSync('./src/topBoardPosts.json'))
+  const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
 
   return data[board]
 }

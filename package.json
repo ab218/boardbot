@@ -22,6 +22,6 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js --ignore './topBoardPosts.json'"
   }
 }

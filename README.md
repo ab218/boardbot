@@ -10,15 +10,13 @@ A [Discord](https://www.discord.com) bot that scrapes posts every 15 minutes fro
 
 2. Create .env file following the .example.env format and paste your bot token from step 1.
 
-3. Provide a valid MongoDB address to the new .env file.
+3. Create discord channels (that the bot has read/write privileges to) for boards listed in the .example.env file (WHISPERING_WINDS, HUNTING, CARNAGE, etc). Copy these channel IDs into the newly created .env file.
 
-4. Create discord channels (that the bot has read/write privileges to) for boards listed in the .example.env file (WHISPERING_WINDS, HUNTING, CARNAGE, etc). Copy these channel IDs into the newly created .env file.
+4. Clone this repository.
 
-5. Clone this repository.
+5. Install dependencies with `npm install`.
 
-6. Install dependencies with `yarn` or `npm install`.
-
-7. `node index.js`.
+6. Start program with `npm start`.
 
 ## Other Bot Commands
 

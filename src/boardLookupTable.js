@@ -1,4 +1,3 @@
-// Constants
 const CHRONICLES = 'Chronicles'
 const BUY = 'MarketB'
 const SELL = 'MarketS'

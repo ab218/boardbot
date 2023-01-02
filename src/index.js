@@ -19,8 +19,6 @@ client.on('message', (msg) => {
     const message = msg.content.split(' ')
     const userCommand = message[0]
 
-    console.log(msg.content)
-
     if (userCommand === '!boardsforcerun') {
       forceRun(client, message)
     } else if (userCommand === '!setboard') {

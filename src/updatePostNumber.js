@@ -1,11 +1,23 @@
 const fs = require('fs')
 
-function updatePostNumber(board, postno) {
-  const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
+function updatePostNumber(board, postno, serverName) {
+  const otherData = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
 
-  data[board] = postno
+  const updatedData = Object.entries(otherData).reduce((acc, [key, val]) => {
+    if (key !== serverName) return { ...acc, [key]: val }
 
-  fs.writeFileSync('./topBoardPosts.json', JSON.stringify(data), function (err) {
+    const fixedVal = Object.entries(val).reduce((a, [k, v]) => {
+      if (k === board) {
+        return { ...a, [k]: { ...v, top: postno } }
+      }
+
+      return { ...a, [k]: v }
+    }, {})
+
+    return { ...acc, [key]: fixedVal }
+  }, {})
+
+  fs.writeFileSync('./topBoardPosts.json', JSON.stringify(updatedData), function (err) {
     if (err) {
       console.error('Crap happens')
     }

@@ -1,15 +1,15 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
-const { boardLookupTable, DREAM_WEAVER } = require('./boardLookupTable')
+const { DREAM_WEAVER } = require('./boardLookupTable')
 const { updatePostNumber } = require('./updatePostNumber')
 
-async function sendPosts(client, newPosts, topPost, board) {
+async function sendPosts({ client, serverName, newPosts, topPost, board, serverBoardIds }) {
   try {
     for (let i = 0; i < newPosts.length; i++) {
       const post = newPosts[i]
-      const linkURL = post.split('.html')[0]
-      const postNumber = linkURL.slice(linkURL.length - 4)
-      const data = await axios.get(post)
+      const link = post.link
+      const postNumber = post.postNumber
+      const data = await axios.get(link)
       const $ = cheerio.load(data.data)
       const author = $('tr:contains("Author :") td').eq(1).text()
       const subject = $('tr:contains("Subject :") td').eq(1).text()
@@ -34,19 +34,23 @@ async function sendPosts(client, newPosts, topPost, board) {
         body.split('**').join('') +
         '```'
 
-      await client.channels.cache.get(boardLookupTable[board]).send(notifyAllIfDreamWeaver + normalTemplate, {
-        split: {
-          char: ' ',
-          prepend: '```md\n',
-          append: '```',
-        },
-      })
+      console.log(serverBoardIds[serverName][board], serverBoardIds[serverName], serverBoardIds)
+
+      await client.channels.cache
+        .get(serverBoardIds[serverName][board].id)
+        .send(notifyAllIfDreamWeaver + normalTemplate, {
+          split: {
+            char: ' ',
+            prepend: '```md\n',
+            append: '```',
+          },
+        })
     }
   } catch (e) {
     console.log(e)
   }
 
-  updatePostNumber(board, topPost)
+  updatePostNumber(board, topPost, serverName)
 
   return
 }

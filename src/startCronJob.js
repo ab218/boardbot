@@ -1,8 +1,9 @@
 const { CronJob } = require('cron')
-const { boardKeys } = require('./boardLookupTable')
 const { getPostNumber } = require('./getPostNumber')
 const { sendPosts } = require('./sendPosts')
 const { getPosts } = require('./getPosts')
+const fs = require('fs')
+const { boardKeys } = require('./boardLookupTable')
 
 const startCronJob = (client) =>
   new CronJob(
@@ -10,15 +11,39 @@ const startCronJob = (client) =>
     async function () {
       console.log('running at: ' + Date.now())
 
+      const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
+      const serverNames = Object.keys(data)
+
       try {
         for (let i = 0; i < boardKeys.length; i++) {
           const board = boardKeys[i]
-          const postno = getPostNumber(board)
-          const { links, topPost } = await getPosts(board, postno)
+          // {[serverName]: topPost}
+          const postno = getPostNumber(data, serverNames, board)
+
+          const lowestPostNo = postno.reduce((acc, { serverName, topPost }) => {
+            if (!Object.keys(acc).length || Object.values(acc)[0] > topPost) {
+              return { [serverName]: topPost }
+            }
+
+            return acc
+          }, {})
+
+          const { links, topPost } = await getPosts(board, Object.values(lowestPostNo)[0])
 
           console.log('board: ', board, 'newPosts: ', links, 'topPost: ', topPost)
 
-          await sendPosts(client, links, topPost, board)
+          postno.forEach(async ({ serverName, topPost: oldTopPost }) => {
+            const filteredLinksIfNecessary = links.filter(({ postNumber }) => postNumber > oldTopPost)
+
+            sendPosts({
+              client,
+              serverName,
+              newPosts: filteredLinksIfNecessary,
+              topPost,
+              board,
+              serverBoardIds: data,
+            })
+          })
         }
       } catch (e) {
         console.log('an error happened with CronJob: ', e)

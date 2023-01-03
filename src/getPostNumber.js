@@ -1,9 +1,14 @@
-const fs = require('fs')
+function getPostNumber(data, serverNames, board) {
+  // {[serverName]: topPost}
+  const mapServerNamesToTopPosts = serverNames
+    .map((sName) => {
+      if (!data[sName][board]) return null
 
-function getPostNumber(board) {
-  const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
+      return { serverName: sName, topPost: data[sName][board].top }
+    })
+    .filter(Boolean)
 
-  return data[board]
+  return mapServerNamesToTopPosts
 }
 
 module.exports = { getPostNumber }

@@ -1,14 +1,19 @@
 const { updatePostNumber } = require('./updatePostNumber')
 const { boardKeys, boardLookupTable } = require('./boardLookupTable')
+const fs = require('fs')
 
 function setBoard(message) {
   const boardName = message[1]
   const newTopPost = message[2]
+  const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
+  const serverNames = Object.keys(data)
 
   if (boardName === 'all') {
-    for (let i = 0; i < boardKeys.length; i++) {
-      updatePostNumber(boardKeys[i], 9999)
-    }
+    serverNames.forEach((serverName) => {
+      for (let i = 0; i < boardKeys.length; i++) {
+        updatePostNumber(boardKeys[i], 9999, serverName)
+      }
+    })
 
     return
   } else if (!boardLookupTable[boardName]) {
@@ -23,7 +28,9 @@ function setBoard(message) {
 
   console.log(`setting post number of ${boardName} to ${newTopPost}...`)
 
-  updatePostNumber(boardName, Number(newTopPost))
+  serverNames.forEach((serverName) => {
+    updatePostNumber(boardName, Number(newTopPost), serverName)
+  })
 }
 
 module.exports = { setBoard }

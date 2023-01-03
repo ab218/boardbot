@@ -10,10 +10,13 @@ async function getPosts(board, prevTop) {
     const links = []
 
     for (let i = posts.length - 1; i >= 0; i--) {
-      const postNumber = Number($(posts[i]).text())
+      const post = posts[i]
+      const postNumber = Number($(post).text())
 
       if (postNumber > prevTop) {
-        links.push(`http://boards.nexustk.com/${board}/${$(posts[i]).attr('href')}`)
+        const link = `http://boards.nexustk.com/${board}/${$(post).attr('href')}`
+
+        links.push({ link, postNumber })
       }
     }
 

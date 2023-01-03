@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { boardKeys, boardLookupTable, updatePostNumber } from '../_utils/index.js'
+import { boardKeys, updatePostNumber } from '../_utils/index.js'
 
 export function setBoard(message) {
   const boardName = message[1]
@@ -15,7 +15,7 @@ export function setBoard(message) {
     })
 
     return
-  } else if (!boardLookupTable[boardName]) {
+  } else if (!boardKeys.includes(boardName)) {
     console.log(`${boardName} board not found. Choose from the following: ${boardKeys}`)
 
     return

@@ -1,9 +1,10 @@
-import Discord from 'discord.js'
-import { forceRun, restartClient, setBoard, start, stop } from './commands/index.js'
-import { startCronJob } from './_utils/index.js'
 import * as dotenv from 'dotenv'
 
 dotenv.config()
+
+import Discord from 'discord.js'
+import { forceRun, restartClient, setBoard, start, stop } from './commands/index.js'
+import { startCronJob } from './_utils/index.js'
 
 const client = new Discord.Client()
 const cronJob = startCronJob(client)

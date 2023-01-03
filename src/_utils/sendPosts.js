@@ -6,9 +6,7 @@ import { updatePostNumber } from './updatePostNumber.js'
 export async function sendPosts({ client, serverName, newPosts, topPost, board, serverBoardIds }) {
   try {
     for (let i = 0; i < newPosts.length; i++) {
-      const post = newPosts[i]
-      const link = post.link
-      const postNumber = post.postNumber
+      const { link, postNumber } = newPosts[i]
       const data = await axios.get(link)
       const $ = cheerio.load(data.data)
       const author = $('tr:contains("Author :") td').eq(1).text()

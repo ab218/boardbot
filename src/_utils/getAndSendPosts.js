@@ -3,16 +3,14 @@ import { getPosts } from './getPosts.js'
 import { sendPosts } from './sendPosts.js'
 
 export const getAndSendPosts = async ({ client, data, serverNames, boardName }) => {
-  // {[serverName]: topPost}
   const postNumberForAllServers = getPostNumber(data, serverNames, boardName)
 
-  const lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers = postNumberForAllServers.reduce(
-    (acc, { topPost }) => (acc > topPost ? topPost : acc), Infinity
-  )
+  const lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers =
+    postNumberForAllServers.reduce((acc, { topPost }) => (acc > topPost ? topPost : acc), Infinity)
 
   const { links, topPost } = await getPosts(
     boardName,
-    lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers
+    lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers,
   )
 
   console.log('newPosts: ', links, 'topPost: ', topPost)

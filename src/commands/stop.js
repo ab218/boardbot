@@ -1,7 +1,5 @@
-function stop(cronJob) {
+export function stop(cronJob) {
   console.log('stopping jobs...')
 
   cronJob.stop()
 }
-
-module.exports = { stop }

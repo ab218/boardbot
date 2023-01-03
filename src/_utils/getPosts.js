@@ -1,7 +1,7 @@
-const axios = require('axios')
-const cheerio = require('cheerio')
+import axios from 'axios'
+import * as cheerio from 'cheerio'
 
-async function getPosts(board, prevTop) {
+export async function getPosts(board, prevTop) {
   try {
     const data = await axios.get(`http://boards.nexustk.com/${board}/index.html`)
     const $ = cheerio.load(data.data)
@@ -10,10 +10,13 @@ async function getPosts(board, prevTop) {
     const links = []
 
     for (let i = posts.length - 1; i >= 0; i--) {
-      const postNumber = Number($(posts[i]).text())
+      const post = posts[i]
+      const postNumber = Number($(post).text())
 
       if (postNumber > prevTop) {
-        links.push(`http://boards.nexustk.com/${board}/${$(posts[i]).attr('href')}`)
+        const link = `http://boards.nexustk.com/${board}/${$(post).attr('href')}`
+
+        links.push({ link, postNumber })
       }
     }
 
@@ -24,5 +27,3 @@ async function getPosts(board, prevTop) {
     return { links: [], topPost: prevTop }
   }
 }
-
-module.exports = { getPosts }

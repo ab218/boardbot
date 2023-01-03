@@ -1,7 +1,7 @@
-const { start } = require('./start')
-const { stop } = require('./stop')
+import { stop } from './stop.js'
+import { start } from './start.js'
 
-async function restartClient(client, cronJob) {
+export async function restartClient(client, cronJob) {
   try {
     stop(cronJob)
 
@@ -14,5 +14,3 @@ async function restartClient(client, cronJob) {
     start(client, cronJob)
   }
 }
-
-module.exports = { restartClient }

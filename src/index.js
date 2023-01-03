@@ -1,13 +1,11 @@
-require('dotenv').config()
+import Discord from 'discord.js'
+import { forceRun, restartClient, setBoard, start, stop } from './commands/index.js'
+import { startCronJob } from './_utils/index.js'
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 
-const Discord = require('discord.js')
+dotenv.config()
+
 const client = new Discord.Client()
-const { setBoard } = require('./setBoard')
-const { forceRun } = require('./forceRun')
-const { restartClient } = require('./restartClient')
-const { start } = require('./start')
-const { stop } = require('./stop')
-const { startCronJob } = require('./startCronJob')
 const cronJob = startCronJob(client)
 
 client.on('ready', () => {

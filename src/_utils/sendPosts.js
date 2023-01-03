@@ -1,9 +1,9 @@
-const axios = require('axios')
-const cheerio = require('cheerio')
-const { DREAM_WEAVER } = require('./boardLookupTable')
-const { updatePostNumber } = require('./updatePostNumber')
+import axios from 'axios'
+import * as cheerio from 'cheerio'
+import { DREAM_WEAVER } from './boardLookupTable.js'
+import { updatePostNumber } from './updatePostNumber.js'
 
-async function sendPosts({ client, serverName, newPosts, topPost, board, serverBoardIds }) {
+export async function sendPosts({ client, serverName, newPosts, topPost, board, serverBoardIds }) {
   try {
     for (let i = 0; i < newPosts.length; i++) {
       const post = newPosts[i]
@@ -54,5 +54,3 @@ async function sendPosts({ client, serverName, newPosts, topPost, board, serverB
 
   return
 }
-
-module.exports = { sendPosts }

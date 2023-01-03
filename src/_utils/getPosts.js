@@ -1,7 +1,7 @@
-const axios = require('axios')
-const cheerio = require('cheerio')
+import axios from 'axios'
+import * as cheerio from 'cheerio'
 
-async function getPosts(board, prevTop) {
+export async function getPosts(board, prevTop) {
   try {
     const data = await axios.get(`http://boards.nexustk.com/${board}/index.html`)
     const $ = cheerio.load(data.data)
@@ -27,5 +27,3 @@ async function getPosts(board, prevTop) {
     return { links: [], topPost: prevTop }
   }
 }
-
-module.exports = { getPosts }

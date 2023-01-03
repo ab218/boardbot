@@ -1,8 +1,7 @@
-const fs = require('fs')
-const { boardLookupTable, boardKeys } = require('./boardLookupTable')
-const { getAndSendPosts } = require('./getAndSendPosts')
+import fs from 'fs'
+import { boardLookupTable, boardKeys, getAndSendPosts } from '../_utils/index.js'
 
-async function forceRun(client, message) {
+export async function forceRun(client, message) {
   const boardName = message[1]
   const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
   const serverNames = Object.keys(data)
@@ -31,5 +30,3 @@ async function forceRun(client, message) {
     return
   }
 }
-
-module.exports = { forceRun }

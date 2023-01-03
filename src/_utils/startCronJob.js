@@ -1,9 +1,9 @@
-const { CronJob } = require('cron')
-const fs = require('fs')
-const { boardKeys } = require('./boardLookupTable')
-const { getAndSendPosts } = require('./getAndSendPosts')
+import { CronJob } from 'cron'
+import fs from 'fs'
+import { boardKeys } from './boardLookupTable.js'
+import { getAndSendPosts } from './getAndSendPosts.js'
 
-const startCronJob = (client) =>
+export const startCronJob = (client) =>
   new CronJob(
     '0 */15 * * * *',
     async function () {
@@ -28,5 +28,3 @@ const startCronJob = (client) =>
     null, // context
     false, // runOnInit
   )
-
-module.exports = { startCronJob }

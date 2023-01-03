@@ -6,9 +6,10 @@
  * create-react-app, and requires a hard-restart of the server
  * to update eslint rules in the react-app server
  */
-module.exports = {
+export const options = {
   parserOptions: {
     ecmaVersion: 11,
+    sourceType: 'module',
   },
   settings: {
     'import/resolver': {

@@ -2,7 +2,6 @@ const CHRONICLES = 'Chronicles'
 const BUY = 'MarketB'
 const SELL = 'MarketS'
 const COMMUNITY = 'Community'
-const DREAM_WEAVER = 'DreamWeaver'
 const DREAMS = 'Dreams'
 const COMM_EVENTS = 'ComEvents'
 const WHISPERING_WINDS = 'WhisperingWinds'
@@ -12,7 +11,9 @@ const HUNTING = 'Hunting'
 const CARNAGE = 'Carnage'
 const DRIFTING_WINDS = 'DriftingWinds'
 
-const boardLookupTable = {
+export const DREAM_WEAVER = 'DreamWeaver'
+
+export const boardLookupTable = {
   [CHRONICLES]: process.env.CHRONICLES,
   [BUY]: process.env.BUY,
   [SELL]: process.env.SELL,
@@ -28,6 +29,4 @@ const boardLookupTable = {
   [DRIFTING_WINDS]: process.env.DRIFTING_WINDS,
 }
 
-const boardKeys = Object.keys(boardLookupTable)
-
-module.exports = { boardKeys, boardLookupTable, DREAM_WEAVER }
+export const boardKeys = Object.keys(boardLookupTable)

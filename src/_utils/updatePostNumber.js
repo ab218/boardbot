@@ -1,6 +1,6 @@
-const fs = require('fs')
+import fs from 'fs'
 
-function updatePostNumber(board, postno, serverName) {
+export function updatePostNumber(board, postno, serverName) {
   const otherData = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
 
   const updatedData = Object.entries(otherData).reduce((acc, [key, val]) => {
@@ -23,5 +23,3 @@ function updatePostNumber(board, postno, serverName) {
     }
   })
 }
-
-module.exports = { updatePostNumber }

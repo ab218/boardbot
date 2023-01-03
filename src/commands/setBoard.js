@@ -1,8 +1,7 @@
-const { updatePostNumber } = require('./updatePostNumber')
-const { boardKeys, boardLookupTable } = require('./boardLookupTable')
-const fs = require('fs')
+import fs from 'fs'
+import { boardKeys, boardLookupTable, updatePostNumber } from '../_utils/index.js'
 
-function setBoard(message) {
+export function setBoard(message) {
   const boardName = message[1]
   const newTopPost = message[2]
   const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
@@ -32,5 +31,3 @@ function setBoard(message) {
     updatePostNumber(boardName, Number(newTopPost), serverName)
   })
 }
-
-module.exports = { setBoard }

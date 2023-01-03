@@ -1,4 +1,4 @@
-function getPostNumber(data, serverNames, board) {
+export function getPostNumber(data, serverNames, board) {
   // {[serverName]: topPost}
   const mapServerNamesToTopPosts = serverNames
     .map((sName) => {
@@ -10,5 +10,3 @@ function getPostNumber(data, serverNames, board) {
 
   return mapServerNamesToTopPosts
 }
-
-module.exports = { getPostNumber }

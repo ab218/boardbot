@@ -34,8 +34,6 @@ export async function sendPosts({ client, serverName, newPosts, topPost, board, 
         body.split('**').join('') +
         '```'
 
-      console.log(serverBoardIds[serverName][board], serverBoardIds[serverName], serverBoardIds)
-
       await client.channels.cache
         .get(serverBoardIds[serverName][board].id)
         .send(notifyAllIfDreamWeaver + normalTemplate, {

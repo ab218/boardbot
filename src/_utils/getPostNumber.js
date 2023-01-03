@@ -1,3 +1,4 @@
+// get post numbers for all servers
 export function getPostNumber(data, serverNames, board) {
   // {[serverName]: topPost}
   const mapServerNamesToTopPosts = serverNames

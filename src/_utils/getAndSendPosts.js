@@ -4,27 +4,20 @@ import { sendPosts } from './sendPosts.js'
 
 export const getAndSendPosts = async ({ client, data, serverNames, boardName }) => {
   // {[serverName]: topPost}
-  const postno = getPostNumber(data, serverNames, boardName)
+  const postNumberForAllServers = getPostNumber(data, serverNames, boardName)
 
-  const lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers = postno.reduce(
-    (acc, { serverName, topPost }) => {
-      if (!Object.keys(acc).length || Object.values(acc)[0] > topPost) {
-        return { [serverName]: topPost }
-      }
-
-      return acc
-    },
-    {},
+  const lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers = postNumberForAllServers.reduce(
+    (acc, { topPost }) => (acc > topPost ? topPost : acc), Infinity
   )
 
   const { links, topPost } = await getPosts(
     boardName,
-    Object.values(lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers)[0],
+    lowestPostNumberToGetAllNeededPostsInCaseTheresADiscrepancyBetweenServers
   )
 
   console.log('newPosts: ', links, 'topPost: ', topPost)
 
-  postno.forEach(async ({ serverName, topPost: oldTopPost }) => {
+  postNumberForAllServers.forEach(async ({ serverName, topPost: oldTopPost }) => {
     const filteredLinksIfNecessary = links.filter(({ postNumber }) => postNumber > oldTopPost)
 
     sendPosts({

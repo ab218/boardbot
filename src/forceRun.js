@@ -1,12 +1,8 @@
-const { boardLookupTable, boardKeys } = require('./boardLookupTable')
-const { getPostNumber } = require('./getPostNumber')
-const { sendPosts } = require('./sendPosts')
-const { getPosts } = require('./getPosts')
 const fs = require('fs')
+const { boardLookupTable, boardKeys } = require('./boardLookupTable')
+const { getAndSendPosts } = require('./getAndSendPosts')
 
 async function forceRun(client, message) {
-  console.log(message, boardLookupTable)
-
   const boardName = message[1]
   const data = JSON.parse(fs.readFileSync('./topBoardPosts.json'))
   const serverNames = Object.keys(data)
@@ -14,34 +10,9 @@ async function forceRun(client, message) {
   if (boardName === 'all') {
     try {
       for (let i = 0; i < boardKeys.length; i++) {
-        const board = boardKeys[i]
-        const postno = getPostNumber(data, serverNames, board)
+        const boardName = boardKeys[i]
 
-        const lowestPostNo = postno.reduce((acc, { serverName, topPost }) => {
-          if (!Object.keys(acc).length || Object.values(acc)[0] > topPost) {
-            return { [serverName]: topPost }
-          }
-
-          return acc
-        }, {})
-        // {[serverName]: topPost}
-
-        const { links, topPost } = await getPosts(board, Object.values(lowestPostNo)[0])
-
-        console.log('board: ', board, 'newPosts: ', links, 'topPost: ', topPost)
-
-        postno.forEach(async ({ serverName, topPost: oldTopPost }) => {
-          const filteredLinksIfNecessary = links.filter(({ postNumber }) => postNumber > oldTopPost)
-
-          sendPosts({
-            client,
-            serverName,
-            newPosts: filteredLinksIfNecessary,
-            topPost,
-            board,
-            serverBoardIds: data,
-          })
-        })
+        getAndSendPosts({ client, data, serverNames, boardName })
       }
     } catch (e) {
       console.log('an error happened in forcerun: ', e)
@@ -51,34 +22,7 @@ async function forceRun(client, message) {
 
     return
   } else if (boardLookupTable[boardName] && typeof boardLookupTable[boardName] === 'string') {
-    // {[serverName]: topPost}
-    const postno = getPostNumber(data, serverNames, boardName)
-
-    const lowestPostNo = postno.reduce((acc, { serverName, topPost }) => {
-      if (!Object.keys(acc).length || Object.values(acc)[0] > topPost) {
-        return { [serverName]: topPost }
-      }
-
-      return acc
-    }, {})
-
-    const { links, topPost } = await getPosts(boardName, Object.values(lowestPostNo)[0])
-
-    console.log('newPosts: ', links, 'topPost: ', topPost)
-
-    postno.forEach(async ({ serverName, topPost: oldTopPost }) => {
-      const filteredLinksIfNecessary = links.filter(({ postNumber }) => postNumber > oldTopPost)
-
-      // client, sName, newPosts, topPost, board
-      sendPosts({
-        client,
-        serverName,
-        newPosts: filteredLinksIfNecessary,
-        topPost,
-        board: boardName,
-        serverBoardIds: data,
-      })
-    })
+    getAndSendPosts({ client, data, serverNames, boardName })
 
     return
   } else {

@@ -1,14 +1,6 @@
-/**
- *  IMPORTANT NOTE!
-
- * create-react-app as of Nov 22, 2018 does not respect .eslintrc
- * files. react-app-rewire-less injects these rules into
- * create-react-app, and requires a hard-restart of the server
- * to update eslint rules in the react-app server
- */
 module.exports = {
   parserOptions: {
-    ecmaVersion: 11,
+    ecmaVersion: 2021,
     sourceType: 'module',
   },
   settings: {

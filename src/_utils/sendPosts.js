@@ -41,13 +41,13 @@ export async function sendPosts({ client, serverName, newPosts, topPost, board, 
             append: '```',
           },
         })
-      }
-      // only update if posts are made
-      updatePostNumber(board, topPost, serverName)
+    }
+
+    // only update if posts are made
+    updatePostNumber(board, topPost, serverName)
   } catch (e) {
     console.log(e)
   }
-
 
   return
 }

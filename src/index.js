@@ -33,9 +33,11 @@ client.on('message', async (msg) => {
     } else if (userCommand === '!boardsstop') {
       stop(cronJob)
     } else if (userCommand === '!boardsgetall') {
-      const board = message[1]
+      const serverName = message[1]
+      const board = message[2]
+      const lastPage = message[3]
 
-      getAllPostsFromBoard({ board, lastPage: 1 })
+      getAllPostsFromBoard({ board, serverName, lastPage })
     }
   } catch (e) {
     console.log(e)
@@ -44,7 +46,7 @@ client.on('message', async (msg) => {
 
 start(client, cronJob)
 
-const getAllPostsFromBoard = async ({ board, lastPage = 0, prevTop = 0 }) => {
+const getAllPostsFromBoard = async ({ board, serverName, lastPage = 0, prevTop = 0 }) => {
   try {
     const allData = []
 
@@ -79,7 +81,7 @@ const getAllPostsFromBoard = async ({ board, lastPage = 0, prevTop = 0 }) => {
 
     sendPosts({
       client,
-      serverName: 'ark',
+      serverName,
       newPosts: allData.flat(),
       topPost: newTop,
       board,

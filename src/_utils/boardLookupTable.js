@@ -34,6 +34,7 @@ export const boardKeys = [
   HUNTING,
   CARNAGE,
   DRIFTING_WINDS,
+  DREAM_WEAVER,
   ROGUES,
   MAGES,
   POETS,

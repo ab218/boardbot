@@ -34,7 +34,7 @@ export async function sendPosts({ client, serverName, newPosts, topPost, board, 
 
       await client.channels.cache
         .get(serverBoardIds[serverName][board].id)
-        .send(notifyAllIfDreamWeaver + normalTemplate, {
+        ?.send(notifyAllIfDreamWeaver + normalTemplate, {
           split: {
             char: ' ',
             prepend: '```md\n',
@@ -43,7 +43,7 @@ export async function sendPosts({ client, serverName, newPosts, topPost, board, 
         })
     }
 
-    // only update if posts are made
+    // only update if posts are made TODO?
     updatePostNumber(board, topPost, serverName)
   } catch (e) {
     console.log(e)

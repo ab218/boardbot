@@ -6,12 +6,13 @@ dotenv.config()
 
 import Discord from 'discord.js'
 import { forceRun, restartClient, setBoard, start, stop } from './commands/index.js'
-import { startCronJob } from './_utils/index.js'
+import { startCronJob, startItemShopCronJob } from './_utils/index.js'
 // import { sendPosts } from './_utils/index.js'
 // import fs from 'fs'
 
 const client = new Discord.Client()
 const cronJob = startCronJob(client)
+const krunaCronJob = startItemShopCronJob(client, process.env.KRUNA_CHANNEL)
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
@@ -45,7 +46,7 @@ client.on('message', async (msg) => {
   }
 })
 
-start(client, cronJob)
+start(client, cronJob, krunaCronJob)
 
 // const getAllPostsFromBoard = async ({ board, serverName, lastPage = 0, prevTop = 0 }) => {
 //   try {

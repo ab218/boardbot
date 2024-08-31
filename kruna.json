@@ -1,0 +1,11010 @@
+{
+  "version": "240830-124019",
+  "main": [
+    {
+      "name": "Blue beach chest",
+      "tile": 1953,
+      "color": 43,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cracked Egg Dye",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bit goldfish",
+      "tile": 5466,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bright fishing pole",
+      "tile": 5667,
+      "color": 14,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cheeky tako hat",
+      "tile": 3690,
+      "color": 198,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 198,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Kang skin potion",
+      "tile": 2093,
+      "color": 40,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold miner tools",
+      "tile": 5288,
+      "color": 253,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 253,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Bear Cub",
+      "tile": 3440,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue coin bag",
+      "tile": 4171,
+      "color": 181,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 181,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Diamondblade",
+      "tile": 643,
+      "color": 23,
+      "items": [
+        {
+          "part": 1,
+          "tile": 17,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold danggi hair",
+      "tile": 5240,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven desert uniform",
+      "tile": 3588,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink bathing garment",
+      "tile": 3478,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold kyunwoo hanbok",
+      "tile": 5315,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange gikyeo hair",
+      "tile": 5314,
+      "color": 32,
+      "items": [
+        {
+          "part": 23,
+          "tile": 425,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue coral frames",
+      "tile": 3471,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 60,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black shark bandito",
+      "tile": 5357,
+      "color": 27,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 5",
+      "tile": 5274,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "usable_items": [
+    {
+      "name": "Blue beach chest",
+      "tile": 1953,
+      "color": 43,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Summer gifts",
+      "tile": 430,
+      "color": 64,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cracked Egg Dye",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Summer Hair Dye",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Untamed locks",
+      "tile": 3096,
+      "color": 2,
+      "items": [
+        {
+          "part": 31,
+          "tile": 101,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short frost",
+      "tile": 3580,
+      "color": 0,
+      "items": [
+        {
+          "part": 31,
+          "tile": 124,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Double buns",
+      "tile": 3096,
+      "color": 14,
+      "items": [
+        {
+          "part": 31,
+          "tile": 113,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Puff hair",
+      "tile": 3583,
+      "color": 29,
+      "items": [
+        {
+          "part": 31,
+          "tile": 126,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gypsy",
+      "tile": 3096,
+      "color": 14,
+      "items": [
+        {
+          "part": 31,
+          "tile": 115,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Wind swept",
+      "tile": 3096,
+      "color": 15,
+      "items": [
+        {
+          "part": 31,
+          "tile": 118,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Kang skin potion",
+      "tile": 2093,
+      "color": 40,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Deung skin potion",
+      "tile": 2093,
+      "color": 18,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Glistening skin potion",
+      "tile": 2093,
+      "color": 29,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Jae skin potion",
+      "tile": 2093,
+      "color": 1,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gyeo skin potion",
+      "tile": 2093,
+      "color": 11,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dagal skin potion",
+      "tile": 2093,
+      "color": 10,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Goon skin potion",
+      "tile": 2093,
+      "color": 104,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bon skin potion",
+      "tile": 2093,
+      "color": 7,
+      "items": [
+        {
+          "part": 34,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Chicken",
+      "tile": 213,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Sheep",
+      "tile": 1524,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Monkey",
+      "tile": 2367,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Ox",
+      "tile": 224,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Pig",
+      "tile": 215,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Rat",
+      "tile": 288,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Cat",
+      "tile": 1523,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Bat",
+      "tile": 3130,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Snake",
+      "tile": 221,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Centipede",
+      "tile": 719,
+      "color": 30,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Quiggy",
+      "tile": 3802,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Squirrel",
+      "tile": 1795,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Puppy",
+      "tile": 1290,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Piglet",
+      "tile": 216,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Fox",
+      "tile": 218,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Skeleton",
+      "tile": 212,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Cobra",
+      "tile": 1865,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Ghost",
+      "tile": 1300,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Lobster",
+      "tile": 1602,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Panda",
+      "tile": 219,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Wolf",
+      "tile": 1529,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Tiger",
+      "tile": 223,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Warthog",
+      "tile": 2605,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Panther Cub",
+      "tile": 3626,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Bear Cub",
+      "tile": 3440,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pet Nine Tails",
+      "tile": 726,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun pet dye",
+      "tile": 21,
+      "color": 21,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White pet dye",
+      "tile": 21,
+      "color": 27,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black pet dye",
+      "tile": 21,
+      "color": 26,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown pet dye",
+      "tile": 21,
+      "color": 28,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red pet dye",
+      "tile": 21,
+      "color": 15,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Summer pet dye",
+      "tile": 21,
+      "color": 10,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Star pet dye",
+      "tile": 21,
+      "color": 22,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime pet dye",
+      "tile": 21,
+      "color": 31,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Deep blue pet dye",
+      "tile": 21,
+      "color": 1,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Azure pet dye",
+      "tile": 21,
+      "color": 2,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Autumn pet dye",
+      "tile": 21,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Earth pet dye",
+      "tile": 21,
+      "color": 25,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tan pet dye",
+      "tile": 21,
+      "color": 29,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark green pet dye",
+      "tile": 21,
+      "color": 30,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow pet dye",
+      "tile": 21,
+      "color": 14,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ancient pet dye",
+      "tile": 21,
+      "color": 7,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blood pet dye",
+      "tile": 21,
+      "color": 20,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Winter pet dye",
+      "tile": 21,
+      "color": 18,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Registration Code",
+      "tile": 3052,
+      "color": 25,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Exp. envelope pack 30 days",
+      "tile": 3058,
+      "color": 5,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Exp. envelope pack 7 days",
+      "tile": 3058,
+      "color": 2,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Exp. envelope pack 1 day",
+      "tile": 3058,
+      "color": 8,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sacred pendant",
+      "tile": 886,
+      "color": 2,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Seraph pendant",
+      "tile": 886,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Equipment restoration",
+      "tile": 3291,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Item Protection",
+      "tile": 2878,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bonded Item Return",
+      "tile": 3313,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Inventory space",
+      "tile": 2964,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bank slot",
+      "tile": 3465,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "World Shout",
+      "tile": 3300,
+      "color": 1,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Experience gem",
+      "tile": 2617,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Recall stone",
+      "tile": 3320,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cleanse Alignment",
+      "tile": 3643,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Divorce papers",
+      "tile": 4871,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Carnage scroll",
+      "tile": 3052,
+      "color": 26,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gogoon scroll",
+      "tile": 3052,
+      "color": 9,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Kingdom scroll",
+      "tile": 3052,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mythic scroll",
+      "tile": 3052,
+      "color": 30,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Palace scroll",
+      "tile": 3052,
+      "color": 20,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Shipwrecked Island scroll",
+      "tile": 3052,
+      "color": 2,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Teleport scroll",
+      "tile": 3052,
+      "color": 25,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Vortex scroll",
+      "tile": 3052,
+      "color": 29,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Wilderness scroll",
+      "tile": 3052,
+      "color": 27,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Woodlands scroll",
+      "tile": 3052,
+      "color": 7,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Amber bag",
+      "tile": 3265,
+      "color": 24,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Crafted Amber bag",
+      "tile": 3265,
+      "color": 3,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Cloth bag",
+      "tile": 3265,
+      "color": 8,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Farmers Bag",
+      "tile": 3265,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Fish Bag",
+      "tile": 3265,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Food Bag",
+      "tile": 3265,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Meat Bag",
+      "tile": 3265,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Ginko bag",
+      "tile": 3265,
+      "color": 2,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Metal bag",
+      "tile": 3265,
+      "color": 23,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Ore bag",
+      "tile": 3265,
+      "color": 26,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Empty Wool bag",
+      "tile": 3265,
+      "color": 1,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Iridescent hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 239,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aubergine hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 79,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bittersweet hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 108,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Indigo hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 118,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cornflower hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 96,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Iris hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 34,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lazuli hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 248,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Moss hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 64,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Onyx hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 90,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 202,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sapphire hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 91,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Strawberry hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 183,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunflower hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 160,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tigerseye hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 156,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White smoke hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 132,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Peridot hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 37,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sprite hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 44,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Spearmint hair potion",
+      "tile": 3284,
+      "color": 12,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Haze hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 164,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Maple hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 158,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Nuage hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 168,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Russet hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 235,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purpleheart hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 78,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Birch hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 227,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Padauk hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 151,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Teak hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 120,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cocobolo hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 46,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pine hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 125,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Candy apple hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 85,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cucumber hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 129,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tartan hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aquamarine hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Flamingo hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 200,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Petunia hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 110,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Golden hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 52,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Emery hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 94,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hunter hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 103,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Nutmeg hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 77,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hyacinth hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 138,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Raspberry hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 140,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 203,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ultraviolet hair potion",
+      "tile": 3560,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 216,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet hair potion",
+      "tile": 3284,
+      "color": 29,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fog hair potion",
+      "tile": 3284,
+      "color": 13,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Glistening hair potion",
+      "tile": 3284,
+      "color": 17,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 17,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pomme hair potion",
+      "tile": 3284,
+      "color": 5,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple hair potion",
+      "tile": 3284,
+      "color": 9,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red hair potion",
+      "tile": 3284,
+      "color": 11,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orchid hair potion",
+      "tile": 3284,
+      "color": 3,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green hair potion",
+      "tile": 3284,
+      "color": 22,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Royal blue hair potion",
+      "tile": 3284,
+      "color": 24,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sandy hair potion",
+      "tile": 3284,
+      "color": 31,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tan hair potion",
+      "tile": 3284,
+      "color": 25,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black hair potion",
+      "tile": 3284,
+      "color": 0,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange hair potion",
+      "tile": 3284,
+      "color": 10,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sky blue hair potion",
+      "tile": 3284,
+      "color": 12,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blonde hair potion",
+      "tile": 3284,
+      "color": 20,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Silver hair potion",
+      "tile": 3284,
+      "color": 1,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slate hair potion",
+      "tile": 3284,
+      "color": 28,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown hair potion",
+      "tile": 3284,
+      "color": 2,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Light brown hair potion",
+      "tile": 3284,
+      "color": 27,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark blue hair potion",
+      "tile": 3284,
+      "color": 7,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cadet hair potion",
+      "tile": 3284,
+      "color": 14,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Kelly hair potion",
+      "tile": 3284,
+      "color": 6,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Topaz hair potion",
+      "tile": 3284,
+      "color": 30,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cinnamon hair potion",
+      "tile": 3284,
+      "color": 26,
+      "items": [
+        {
+          "part": 32,
+          "tile": 0,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Shadowsteel Claymore",
+      "tile": 5108,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 361,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Saber Tooth Sword",
+      "tile": 5089,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 369,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cursed Soul Scepter",
+      "tile": 5067,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 365,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mourn Blade",
+      "tile": 5344,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 394,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Diamondblade",
+      "tile": 643,
+      "color": 23,
+      "items": [
+        {
+          "part": 1,
+          "tile": 17,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunblade",
+      "tile": 643,
+      "color": 57,
+      "items": [
+        {
+          "part": 1,
+          "tile": 17,
+          "color": 57,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Taegeukgi baloom",
+      "tile": 4349,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 325,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pastel pouch",
+      "tile": 3805,
+      "color": 10,
+      "items": [
+        {
+          "part": 1,
+          "tile": 288,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cotton candy ice cone",
+      "tile": 4261,
+      "color": 221,
+      "items": [
+        {
+          "part": 1,
+          "tile": 318,
+          "color": 221,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aquamarine Claw",
+      "tile": 5084,
+      "color": 63,
+      "items": [
+        {
+          "part": 1,
+          "tile": 368,
+          "color": 63,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green lucky pick",
+      "tile": 3359,
+      "color": 48,
+      "items": [
+        {
+          "part": 1,
+          "tile": 171,
+          "color": 48,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Thunder Fury",
+      "tile": 5739,
+      "color": 236,
+      "items": [
+        {
+          "part": 1,
+          "tile": 422,
+          "color": 236,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black Pillow Attack",
+      "tile": 4929,
+      "color": 45,
+      "items": [
+        {
+          "part": 1,
+          "tile": 356,
+          "color": 45,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Azure 25th yegeom",
+      "tile": 1181,
+      "color": 0,
+      "items": [
+        {
+          "part": 1,
+          "tile": 81,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Iron fishing pole",
+      "tile": 5667,
+      "color": 1,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark fishing pole",
+      "tile": 5667,
+      "color": 82,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 82,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink fishing pole",
+      "tile": 5667,
+      "color": 23,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold fishing pole",
+      "tile": 5667,
+      "color": 2,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ocean fishing pole",
+      "tile": 5667,
+      "color": 40,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 40,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red fishing pole",
+      "tile": 5667,
+      "color": 16,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bright fishing pole",
+      "tile": 5667,
+      "color": 14,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple fishing pole",
+      "tile": 5667,
+      "color": 219,
+      "items": [
+        {
+          "part": 1,
+          "tile": 403,
+          "color": 219,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "mounts": [
+    {
+      "name": "Roe deer horn",
+      "tile": 2074,
+      "color": 8,
+      "items": [
+        {
+          "part": 33,
+          "tile": 3,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Shivery polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Copper turtle shell",
+      "tile": 1520,
+      "color": 5,
+      "items": [
+        {
+          "part": 33,
+          "tile": 4,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Raw polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow panther collar",
+      "tile": 2050,
+      "color": 25,
+      "items": [
+        {
+          "part": 33,
+          "tile": 1,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bamboo Dragon dog",
+      "tile": 2073,
+      "color": 11,
+      "items": [
+        {
+          "part": 33,
+          "tile": 6,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blissful deer horn",
+      "tile": 2074,
+      "color": 5,
+      "items": [
+        {
+          "part": 33,
+          "tile": 3,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bitter polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Random Mount III",
+      "tile": 3626,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Golden turtle shell",
+      "tile": 1520,
+      "color": 30,
+      "items": [
+        {
+          "part": 33,
+          "tile": 4,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Barasingha deer horn",
+      "tile": 2074,
+      "color": 27,
+      "items": [
+        {
+          "part": 33,
+          "tile": 3,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tiger mount",
+      "tile": 3444,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 7,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brumal polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Peridot Dragon dog",
+      "tile": 2073,
+      "color": 12,
+      "items": [
+        {
+          "part": 33,
+          "tile": 6,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Framboise deer horn",
+      "tile": 2074,
+      "color": 4,
+      "items": [
+        {
+          "part": 33,
+          "tile": 3,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mountain goat pan flute",
+      "tile": 2071,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 10,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunda deer horn",
+      "tile": 2074,
+      "color": 9,
+      "items": [
+        {
+          "part": 33,
+          "tile": 3,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frost polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frost turtle shell",
+      "tile": 1520,
+      "color": 17,
+      "items": [
+        {
+          "part": 33,
+          "tile": 4,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Siberian polar bear",
+      "tile": 2427,
+      "color": 0,
+      "items": [
+        {
+          "part": 33,
+          "tile": 11,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Random Mount II",
+      "tile": 3626,
+      "color": 0,
+      "items": [
+        {
+          "part": 0,
+          "tile": 0,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Alexandrite Dragon dog",
+      "tile": 2073,
+      "color": 9,
+      "items": [
+        {
+          "part": 33,
+          "tile": 6,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "face": [
+    {
+      "name": "Patch face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 231,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tribal face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 236,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Stoic face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 223,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mischievous face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 224,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Scar face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 230,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Buck tooth face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 237,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Charming face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 225,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Happy face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 235,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Nulgun face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 232,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Angry face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 219,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Freckle face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 233,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mole face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 234,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lost face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 220,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Clown face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 227,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Heavy face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 221,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Smug face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 222,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aloof face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 218,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Surly face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 226,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Glamour face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 229,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Content face",
+      "tile": 2881,
+      "color": 0,
+      "items": [
+        {
+          "part": 30,
+          "tile": 228,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun hot pink glasses",
+      "tile": 3469,
+      "color": 0,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun white glasses",
+      "tile": 3469,
+      "color": 8,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun brown glasses",
+      "tile": 3469,
+      "color": 23,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun powder glasses",
+      "tile": 3469,
+      "color": 29,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun dark green glasses",
+      "tile": 3469,
+      "color": 25,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun apple glasses",
+      "tile": 3469,
+      "color": 26,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun sprite glasses",
+      "tile": 3469,
+      "color": 33,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 33,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun sunset glasses",
+      "tile": 3469,
+      "color": 37,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 37,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun cobalt glasses",
+      "tile": 3469,
+      "color": 3,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 49,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun purple glasses",
+      "tile": 3469,
+      "color": 30,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 68,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun fuschia glasses",
+      "tile": 3469,
+      "color": 18,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 100,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun rust glasses",
+      "tile": 3469,
+      "color": 10,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 140,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun golden glasses",
+      "tile": 3469,
+      "color": 9,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 181,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun lilac glasses",
+      "tile": 3469,
+      "color": 30,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun multi glasses",
+      "tile": 3469,
+      "color": 5,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny glasses",
+      "tile": 3469,
+      "color": 4,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sun electric glasses",
+      "tile": 3469,
+      "color": 6,
+      "items": [
+        {
+          "part": 22,
+          "tile": 18,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red shark bandito",
+      "tile": 5357,
+      "color": 62,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 62,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black shark bandito",
+      "tile": 5357,
+      "color": 27,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow shark bandito",
+      "tile": 5357,
+      "color": 28,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green shark bandito",
+      "tile": 5357,
+      "color": 40,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 40,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue shark bandito",
+      "tile": 5357,
+      "color": 44,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 44,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White shark bandito",
+      "tile": 5357,
+      "color": 0,
+      "items": [
+        {
+          "part": 22,
+          "tile": 46,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold Cat eyes",
+      "tile": 5163,
+      "color": 0,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green Cat eyes",
+      "tile": 5163,
+      "color": 4,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White Cat eyes",
+      "tile": 5163,
+      "color": 5,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black Cat eyes",
+      "tile": 5163,
+      "color": 7,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue Cat eyes",
+      "tile": 5163,
+      "color": 13,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink Cat eyes",
+      "tile": 5163,
+      "color": 20,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red Cat eyes",
+      "tile": 5163,
+      "color": 31,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey Cat eyes",
+      "tile": 5163,
+      "color": 9,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown Cat eyes",
+      "tile": 5163,
+      "color": 1,
+      "items": [
+        {
+          "part": 22,
+          "tile": 39,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "head": [
+    {
+      "name": "Mul goldfish",
+      "tile": 5466,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hae goldfish",
+      "tile": 5466,
+      "color": 15,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Jaju goldfish",
+      "tile": 5466,
+      "color": 210,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 210,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Rim goldfish",
+      "tile": 5466,
+      "color": 47,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 47,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Namu goldfish",
+      "tile": 5466,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hong goldfish",
+      "tile": 5466,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hayan goldfish",
+      "tile": 5466,
+      "color": 231,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 231,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Kkam goldfish",
+      "tile": 5466,
+      "color": 56,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 56,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yeo goldfish",
+      "tile": 5466,
+      "color": 2,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Paran goldfish",
+      "tile": 5466,
+      "color": 180,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 180,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Allok goldfish",
+      "tile": 5466,
+      "color": 23,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bulkkot goldfish",
+      "tile": 5466,
+      "color": 21,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bora goldfish",
+      "tile": 5466,
+      "color": 156,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 156,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Neup goldfish",
+      "tile": 5466,
+      "color": 17,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 17,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Eol goldfish",
+      "tile": 5466,
+      "color": 11,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gasi goldfish",
+      "tile": 5466,
+      "color": 24,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Jaet goldfish",
+      "tile": 5466,
+      "color": 6,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Nam goldfish",
+      "tile": 5466,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Areum goldfish",
+      "tile": 5466,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Geum goldfish",
+      "tile": 5466,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Beom goldfish",
+      "tile": 5466,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grin goldfish",
+      "tile": 5466,
+      "color": 242,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 242,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bit goldfish",
+      "tile": 5466,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Eun goldfish",
+      "tile": 5466,
+      "color": 60,
+      "items": [
+        {
+          "part": 23,
+          "tile": 459,
+          "color": 60,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Silver gikyeo hair",
+      "tile": 5314,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 425,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange gikyeo hair",
+      "tile": 5314,
+      "color": 32,
+      "items": [
+        {
+          "part": 23,
+          "tile": 425,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange priests queue",
+      "tile": 3764,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 234,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey priests queue",
+      "tile": 3764,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue priests queue",
+      "tile": 3764,
+      "color": 7,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Navy priests queue",
+      "tile": 3764,
+      "color": 7,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 54,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Forest priests queue",
+      "tile": 3764,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 58,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Storm priests queue",
+      "tile": 3764,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 216,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown priests queue",
+      "tile": 3764,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 226,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green priests queue",
+      "tile": 3764,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 228,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Spring priests queue",
+      "tile": 3764,
+      "color": 6,
+      "items": [
+        {
+          "part": 23,
+          "tile": 145,
+          "color": 229,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Forest elven tie",
+      "tile": 3591,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green elven tie",
+      "tile": 3591,
+      "color": 16,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frost elven tie",
+      "tile": 3591,
+      "color": 28,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange elven tie",
+      "tile": 3591,
+      "color": 14,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Teal elven tie",
+      "tile": 3591,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Auburn elven tie",
+      "tile": 3591,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Toffee elven tie",
+      "tile": 3591,
+      "color": 31,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dawn elven tie",
+      "tile": 3591,
+      "color": 15,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue elven tie",
+      "tile": 3591,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blonde elven tie",
+      "tile": 3591,
+      "color": 24,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red elven tie",
+      "tile": 3591,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Baran elven tie",
+      "tile": 3591,
+      "color": 26,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime elven tie",
+      "tile": 3591,
+      "color": 9,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pastel elven tie",
+      "tile": 3591,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orchid elven tie",
+      "tile": 3591,
+      "color": 13,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dovetail elven tie",
+      "tile": 3591,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black elven tie",
+      "tile": 3591,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White elven tie",
+      "tile": 3591,
+      "color": 5,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown elven tie",
+      "tile": 3591,
+      "color": 6,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Heather elven tie",
+      "tile": 3591,
+      "color": 7,
+      "items": [
+        {
+          "part": 23,
+          "tile": 100,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Baran elven gale cut",
+      "tile": 3590,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue elven gale cut",
+      "tile": 3590,
+      "color": 5,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange elven gale cut",
+      "tile": 3590,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sleet elven gale cut",
+      "tile": 3590,
+      "color": 11,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Flare elven gale cut",
+      "tile": 3590,
+      "color": 13,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blonde elven gale cut",
+      "tile": 3590,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red elven gale cut",
+      "tile": 3590,
+      "color": 19,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frost elven gale cut",
+      "tile": 3590,
+      "color": 22,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Auburn elven gale cut",
+      "tile": 3590,
+      "color": 24,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Toffee elven gale cut",
+      "tile": 3590,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Storm elven gale cut",
+      "tile": 3590,
+      "color": 26,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dovetail elven gale cut",
+      "tile": 3590,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black elven gale cut",
+      "tile": 3590,
+      "color": 30,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White elven gale cut",
+      "tile": 3590,
+      "color": 31,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown elven gale cut",
+      "tile": 3590,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Forest elven gale cut",
+      "tile": 3590,
+      "color": 2,
+      "items": [
+        {
+          "part": 23,
+          "tile": 99,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Squiggly tako hat",
+      "tile": 3690,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Wiggly tako hat",
+      "tile": 3690,
+      "color": 2,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Jelly tako hat",
+      "tile": 3690,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sticky tako hat",
+      "tile": 3690,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dizzy tako hat",
+      "tile": 3690,
+      "color": 13,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Wobbly tako hat",
+      "tile": 3690,
+      "color": 21,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Muddy tako hat",
+      "tile": 3690,
+      "color": 23,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slippery tako hat",
+      "tile": 3690,
+      "color": 24,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Floppy tako hat",
+      "tile": 3690,
+      "color": 30,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mushy tako hat",
+      "tile": 3690,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Stingy tako hat",
+      "tile": 3690,
+      "color": 129,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 129,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Icy tako hat",
+      "tile": 3690,
+      "color": 22,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Creepy tako hat",
+      "tile": 3690,
+      "color": 223,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 223,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cheeky tako hat",
+      "tile": 3690,
+      "color": 198,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 198,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Glossy tako hat",
+      "tile": 3690,
+      "color": 132,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 132,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Clammy tako hat",
+      "tile": 3690,
+      "color": 62,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 62,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Shiny tako hat",
+      "tile": 3690,
+      "color": 41,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 41,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bumpy tako hat",
+      "tile": 3690,
+      "color": 56,
+      "items": [
+        {
+          "part": 23,
+          "tile": 126,
+          "color": 56,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue sun visor",
+      "tile": 3470,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aqua sun visor",
+      "tile": 3470,
+      "color": 1,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet sun visor",
+      "tile": 3470,
+      "color": 2,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Turquoise sun visor",
+      "tile": 3470,
+      "color": 5,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny sun visor",
+      "tile": 3470,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Electric sun visor",
+      "tile": 3470,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red sun visor",
+      "tile": 3470,
+      "color": 14,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black sun visor",
+      "tile": 3470,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White sun visor",
+      "tile": 3470,
+      "color": 26,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown sun visor",
+      "tile": 3470,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lilac sun visor",
+      "tile": 3470,
+      "color": 28,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Apple sun visor",
+      "tile": 3470,
+      "color": 30,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Marine sun visor",
+      "tile": 3470,
+      "color": 32,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime sun visor",
+      "tile": 3470,
+      "color": 5,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 34,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lavender sun visor",
+      "tile": 3470,
+      "color": 34,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 121,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuschia sun visor",
+      "tile": 3470,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mustard sun visor",
+      "tile": 3470,
+      "color": 20,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 186,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple sun visor",
+      "tile": 3470,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 194,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cerise sun visor",
+      "tile": 3470,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Palm sun visor",
+      "tile": 3470,
+      "color": 15,
+      "items": [
+        {
+          "part": 23,
+          "tile": 63,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue coral frames",
+      "tile": 3471,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 60,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black coral frames",
+      "tile": 3471,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 60,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold coral frames",
+      "tile": 3471,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 60,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly purple hair",
+      "tile": 4803,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly black hair",
+      "tile": 4803,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly blonde hair",
+      "tile": 4803,
+      "color": 30,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly red hair",
+      "tile": 4803,
+      "color": 31,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 87,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly silver hair",
+      "tile": 4803,
+      "color": 29,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly sapphire hair",
+      "tile": 4803,
+      "color": 50,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 50,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly green hair",
+      "tile": 4803,
+      "color": 146,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 146,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly violet hair",
+      "tile": 4803,
+      "color": 137,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 137,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly shadow hair",
+      "tile": 4803,
+      "color": 148,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 148,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly lava hair",
+      "tile": 4803,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 343,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly silver bangs",
+      "tile": 4802,
+      "color": 49,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 49,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly sapphire bangs",
+      "tile": 4802,
+      "color": 69,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 69,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly green bangs",
+      "tile": 4802,
+      "color": 134,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly violet bangs",
+      "tile": 4802,
+      "color": 202,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 202,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly brown bangs",
+      "tile": 4802,
+      "color": 186,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 186,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly lava bangs",
+      "tile": 4802,
+      "color": 13,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly blue bangs",
+      "tile": 4802,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly black bangs",
+      "tile": 4802,
+      "color": 16,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly red bangs",
+      "tile": 4802,
+      "color": 19,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ghostly purple bangs",
+      "tile": 4802,
+      "color": 20,
+      "items": [
+        {
+          "part": 23,
+          "tile": 344,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Punch chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 103,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Licorice chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 133,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Coconut chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 205,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cake chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grape chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 128,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Zesty chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 142,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tea chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 167,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Raspberry chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 163,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mint chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 252,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Berry chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 231,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Plum chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 202,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cherry chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 190,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tangy chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 39,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fresh chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 138,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 157,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tangerine chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 161,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Strawberry chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 164,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 203,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cocoa chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 224,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Chocolate chopsticks",
+      "tile": 4255,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 243,
+          "color": 232,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange kyunwoo hair",
+      "tile": 5313,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cyan kyunwoo hair",
+      "tile": 5313,
+      "color": 1,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow kyunwoo hair",
+      "tile": 5313,
+      "color": 2,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Darkslateblue kyunwoo hair",
+      "tile": 5313,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple kyunwoo hair",
+      "tile": 5313,
+      "color": 5,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slateblue kyunwoo hair",
+      "tile": 5313,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown kyunwoo hair",
+      "tile": 5313,
+      "color": 9,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet kyunwoo hair",
+      "tile": 5313,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hotpink kyunwoo hair",
+      "tile": 5313,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Teal kyunwoo hair",
+      "tile": 5313,
+      "color": 32,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue kyunwoo hair",
+      "tile": 5313,
+      "color": 33,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 33,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green kyunwoo hair",
+      "tile": 5313,
+      "color": 35,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 35,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink kyunwoo hair",
+      "tile": 5313,
+      "color": 31,
+      "items": [
+        {
+          "part": 23,
+          "tile": 424,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black antlers",
+      "tile": 2656,
+      "color": 24,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue antlers",
+      "tile": 2656,
+      "color": 20,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown antlers",
+      "tile": 2656,
+      "color": 1,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet antlers",
+      "tile": 2656,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White antlers",
+      "tile": 2656,
+      "color": 25,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow antlers",
+      "tile": 2656,
+      "color": 26,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red antlers",
+      "tile": 2656,
+      "color": 27,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lava antlers",
+      "tile": 2656,
+      "color": 21,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Rainbow antlers",
+      "tile": 2656,
+      "color": 23,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Spark antlers",
+      "tile": 2656,
+      "color": 22,
+      "items": [
+        {
+          "part": 23,
+          "tile": 9,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black danggi hair",
+      "tile": 5240,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Silver danggi hair",
+      "tile": 5240,
+      "color": 22,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink danggi hair",
+      "tile": 5240,
+      "color": 30,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue danggi hair",
+      "tile": 5240,
+      "color": 33,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 33,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green danggi hair",
+      "tile": 5240,
+      "color": 41,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 41,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red danggi hair",
+      "tile": 5240,
+      "color": 51,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 51,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Darkblue danggi hair",
+      "tile": 5240,
+      "color": 60,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 60,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey danggi hair",
+      "tile": 5240,
+      "color": 6,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple danggi hair",
+      "tile": 5240,
+      "color": 12,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold danggi hair",
+      "tile": 5240,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown danggi hair",
+      "tile": 5240,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 403,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold fauxhawk hair",
+      "tile": 5292,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey fauxhawk hair",
+      "tile": 5292,
+      "color": 3,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black fauxhawk hair",
+      "tile": 5292,
+      "color": 8,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White fauxhawk hair",
+      "tile": 5292,
+      "color": 9,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Yellow fauxhawk hair",
+      "tile": 5292,
+      "color": 10,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red fauxhawk hair",
+      "tile": 5292,
+      "color": 13,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue fauxhawk hair",
+      "tile": 5292,
+      "color": 14,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pruple fauxhawk hair",
+      "tile": 5292,
+      "color": 31,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Olive fauxhawk hair",
+      "tile": 5292,
+      "color": 16,
+      "items": [
+        {
+          "part": 23,
+          "tile": 421,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hellish Casque",
+      "tile": 4954,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 363,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Embroidered Jade Band",
+      "tile": 4956,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 364,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Embroidered Jade Hair Tie",
+      "tile": 4957,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 365,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Curlers",
+      "tile": 5233,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 401,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fringe hair",
+      "tile": 5281,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 418,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short wavy hair",
+      "tile": 5048,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 381,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "High wave hair",
+      "tile": 5194,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 395,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short streak",
+      "tile": 4831,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 345,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ponytail streak",
+      "tile": 4832,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 346,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Messy bed hair",
+      "tile": 4837,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 347,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Messy ponytail",
+      "tile": 4838,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 348,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Flat front hair",
+      "tile": 4843,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 349,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Round pigtails",
+      "tile": 4850,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 352,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slick back hair",
+      "tile": 5041,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 378,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Side ponytail",
+      "tile": 5042,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 379,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mohawk",
+      "tile": 5047,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 380,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Long cap hair",
+      "tile": 5196,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 396,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short cap hair",
+      "tile": 5273,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 414,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Highlights",
+      "tile": 5283,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 419,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ice skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Snow skating hair",
+      "tile": 4189,
+      "color": 4,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Midnight skating hair",
+      "tile": 4189,
+      "color": 6,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sapphire skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 182,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Twilight skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 109,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Forest skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Rose skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 161,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Scarlet skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 164,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Amethyst skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 167,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cocoa skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 231,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Emerald skating hair",
+      "tile": 4189,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 219,
+          "color": 255,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black gathered locks",
+      "tile": 5842,
+      "color": 15,
+      "items": [
+        {
+          "part": 23,
+          "tile": 508,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blonde gathered locks",
+      "tile": 5842,
+      "color": 0,
+      "items": [
+        {
+          "part": 23,
+          "tile": 508,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "mantle": [
+    {
+      "name": "Taegeukgi mantle S",
+      "tile": 4344,
+      "color": 0,
+      "items": [
+        {
+          "part": 14,
+          "tile": 39,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Taegeukgi mantle L",
+      "tile": 4350,
+      "color": 0,
+      "items": [
+        {
+          "part": 14,
+          "tile": 40,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Taegeukgi mantle 2024",
+      "tile": 4350,
+      "color": 7,
+      "items": [
+        {
+          "part": 14,
+          "tile": 40,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short tie mantle",
+      "tile": 3769,
+      "color": 0,
+      "items": [
+        {
+          "part": 14,
+          "tile": 18,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Vermilion mantle",
+      "tile": 3073,
+      "color": 29,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Salmoneus mantle",
+      "tile": 3073,
+      "color": 7,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "modrave mantle",
+      "tile": 3073,
+      "color": 27,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Azure mantle",
+      "tile": 3073,
+      "color": 240,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 241,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Crest mantle",
+      "tile": 3073,
+      "color": 31,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Watteau mantle",
+      "tile": 3073,
+      "color": 6,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Deep green mantle",
+      "tile": 3073,
+      "color": 20,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Moss Mantle",
+      "tile": 3073,
+      "color": 13,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sapphire mantle",
+      "tile": 3073,
+      "color": 22,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sulphureus mantle",
+      "tile": 3073,
+      "color": 28,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Willow mantle",
+      "tile": 3073,
+      "color": 30,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ochraceus mantle",
+      "tile": 3073,
+      "color": 242,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 242,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Goura mantle",
+      "tile": 3073,
+      "color": 21,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Vaalea mantle",
+      "tile": 3073,
+      "color": 5,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sinimusta mantle",
+      "tile": 3073,
+      "color": 26,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sea mist mantle",
+      "tile": 3073,
+      "color": 3,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Multi mantle",
+      "tile": 3073,
+      "color": 23,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blaze mantle",
+      "tile": 3073,
+      "color": 24,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Rainbow mantle",
+      "tile": 3073,
+      "color": 25,
+      "items": [
+        {
+          "part": 14,
+          "tile": 0,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue miner tools",
+      "tile": 5288,
+      "color": 183,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 183,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold miner tools",
+      "tile": 5288,
+      "color": 253,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 253,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple miner tools",
+      "tile": 5288,
+      "color": 137,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 137,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green miner tools",
+      "tile": 5288,
+      "color": 207,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 207,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown miner tools",
+      "tile": 5288,
+      "color": 5,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Magenta miner tools",
+      "tile": 5288,
+      "color": 152,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 152,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red miner tools",
+      "tile": 5288,
+      "color": 30,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink miner tools",
+      "tile": 5288,
+      "color": 213,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 213,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White miner tools",
+      "tile": 5288,
+      "color": 28,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black miner tools",
+      "tile": 5288,
+      "color": 1,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Miner tools",
+      "tile": 5288,
+      "color": 0,
+      "items": [
+        {
+          "part": 14,
+          "tile": 91,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White ninetails",
+      "tile": 4253,
+      "color": 0,
+      "items": [
+        {
+          "part": 14,
+          "tile": 33,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "necklaces": [
+    {
+      "name": "Grey coin bag",
+      "tile": 4171,
+      "color": 178,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 178,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple coin bag",
+      "tile": 4171,
+      "color": 203,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 203,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cobalt coin bag",
+      "tile": 4171,
+      "color": 76,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 76,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ivory coin bag",
+      "tile": 4171,
+      "color": 158,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 158,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown coin bag",
+      "tile": 4171,
+      "color": 134,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue coin bag",
+      "tile": 4171,
+      "color": 181,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 181,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime coin bag",
+      "tile": 4171,
+      "color": 144,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 144,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White coin bag",
+      "tile": 4171,
+      "color": 235,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 235,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Magenta coin bag",
+      "tile": 4171,
+      "color": 211,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 211,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Onyx coin bag",
+      "tile": 4171,
+      "color": 238,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 238,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grin coin bag",
+      "tile": 4171,
+      "color": 183,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 183,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pumpkin coin bag",
+      "tile": 4171,
+      "color": 14,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Indigo coin bag",
+      "tile": 4171,
+      "color": 20,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold coin bag",
+      "tile": 4171,
+      "color": 22,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black coin bag",
+      "tile": 4171,
+      "color": 28,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sky coin bag",
+      "tile": 4171,
+      "color": 6,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Maroon coin bag",
+      "tile": 4171,
+      "color": 8,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Taupe coin bag",
+      "tile": 4171,
+      "color": 9,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cerulean coin bag",
+      "tile": 4171,
+      "color": 11,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Silver coin bag",
+      "tile": 4171,
+      "color": 13,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Bubblegum coin bag",
+      "tile": 4171,
+      "color": 2,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green coin bag",
+      "tile": 4171,
+      "color": 46,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 46,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red coin bag",
+      "tile": 4171,
+      "color": 0,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink coin bag",
+      "tile": 4171,
+      "color": 4,
+      "items": [
+        {
+          "part": 6,
+          "tile": 11,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "coats": [
+    {
+      "name": "Purple gikyeo hanbok",
+      "tile": 5316,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sienna gikyeo hanbok",
+      "tile": 5316,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White gikyeo hanbok",
+      "tile": 5316,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink gikyeo hanbok",
+      "tile": 5316,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orange gikyeo hanbok",
+      "tile": 5316,
+      "color": 24,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slateblue gikyeo hanbok",
+      "tile": 5316,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue gikyeo hanbok",
+      "tile": 5316,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown gikyeo hanbok",
+      "tile": 5316,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green gikyeo hanbok",
+      "tile": 5316,
+      "color": 32,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red gikyeo hanbok",
+      "tile": 5316,
+      "color": 140,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10318,
+          "color": 140,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fern high priest robe",
+      "tile": 3765,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cobalt high priest robe",
+      "tile": 3765,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey high priest robe",
+      "tile": 3765,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue high priest robe",
+      "tile": 3765,
+      "color": 13,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Garnet high priest robe",
+      "tile": 3765,
+      "color": 20,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blood high priest robe",
+      "tile": 3765,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Golden high priest robe",
+      "tile": 3765,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Stormy high priest robe",
+      "tile": 3765,
+      "color": 28,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ebony high priest robe",
+      "tile": 3765,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Azure high priest robe",
+      "tile": 3765,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown high priest robe",
+      "tile": 3765,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10098,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven murky bodice",
+      "tile": 3589,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven ciel bodice",
+      "tile": 3589,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven lavender bodice",
+      "tile": 3589,
+      "color": 9,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven commodore bodice",
+      "tile": 3589,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven eclipse bodice",
+      "tile": 3589,
+      "color": 21,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven iris bodice",
+      "tile": 3589,
+      "color": 24,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven haze bodice",
+      "tile": 3589,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven blood bodice",
+      "tile": 3589,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven desert bodice",
+      "tile": 3589,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven purpleheart bodice",
+      "tile": 3589,
+      "color": 29,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven new moon bodice",
+      "tile": 3589,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven full moon bodice",
+      "tile": 3589,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven nightfall bodice",
+      "tile": 3589,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven pomme bodice",
+      "tile": 3589,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10059,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven blood uniform",
+      "tile": 3588,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven desert uniform",
+      "tile": 3588,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven midnight uniform",
+      "tile": 3588,
+      "color": 28,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven haze uniform",
+      "tile": 3588,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven new moon uniform",
+      "tile": 3588,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven full moon uniform",
+      "tile": 3588,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven solemn uniform",
+      "tile": 3588,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven murky uniform",
+      "tile": 3588,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven commodore uniform",
+      "tile": 3588,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven eclipse uniform",
+      "tile": 3588,
+      "color": 21,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10058,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown bathing garment",
+      "tile": 3478,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lilac bathing garment",
+      "tile": 3478,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Marine bathing garment",
+      "tile": 3478,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet bathing garment",
+      "tile": 3478,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cerise bathing garment",
+      "tile": 3478,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Turquoise bathing garment",
+      "tile": 3478,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny bathing garment",
+      "tile": 3478,
+      "color": 18,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Electric bathing garment",
+      "tile": 3478,
+      "color": 20,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime bathing garment",
+      "tile": 3478,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 44,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ciel bathing garment",
+      "tile": 3478,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 47,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lavender bathing garment",
+      "tile": 3478,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 131,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuschia bathing garment",
+      "tile": 3478,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 144,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mustard bathing garment",
+      "tile": 3478,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 164,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple bathing garment",
+      "tile": 3478,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 195,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aqua bathing garment",
+      "tile": 3478,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black bathing garment",
+      "tile": 3478,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White bathing garment",
+      "tile": 3478,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pink bathing garment",
+      "tile": 3478,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green bathing garment",
+      "tile": 3478,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Apple bathing garment",
+      "tile": 3478,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red bathing garment",
+      "tile": 3478,
+      "color": 24,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10031,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuschia bathing trousers",
+      "tile": 3477,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunglow bathing trousers",
+      "tile": 3477,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 186,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet bathing trousers",
+      "tile": 3477,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Palm bathing trousers",
+      "tile": 3477,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny bathing trousers",
+      "tile": 3477,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sienna bathing trousers",
+      "tile": 3477,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Apple bathing trousers",
+      "tile": 3477,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pacific bathing trousers",
+      "tile": 3477,
+      "color": 17,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime bathing trousers",
+      "tile": 3477,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 34,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Marine bathing trousers",
+      "tile": 3477,
+      "color": 37,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 37,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Emerald bathing trousers",
+      "tile": 3477,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 40,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Electric bathing trousers",
+      "tile": 3477,
+      "color": 44,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 44,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lavender bathing trousers",
+      "tile": 3477,
+      "color": 11,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 121,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue bathing trousers",
+      "tile": 3477,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dusk bathing trousers",
+      "tile": 3477,
+      "color": 194,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 194,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tan bathing trousers",
+      "tile": 3477,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Clearwater bathing trousers",
+      "tile": 3477,
+      "color": 11,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Green bathing trousers",
+      "tile": 3477,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10030,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Berry dangui",
+      "tile": 4283,
+      "color": 28,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cherry dangui",
+      "tile": 4283,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grape dangui",
+      "tile": 4283,
+      "color": 9,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Plum dangui",
+      "tile": 4283,
+      "color": 29,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Punch dangui",
+      "tile": 4283,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Licorice dangui",
+      "tile": 4283,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Coconut dangui",
+      "tile": 4283,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cake dangui",
+      "tile": 4283,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Zesty dangui",
+      "tile": 4283,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Tea dangui",
+      "tile": 4283,
+      "color": 19,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Raspberry dangui",
+      "tile": 4283,
+      "color": 20,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mint dangui",
+      "tile": 4283,
+      "color": 21,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10168,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Darkblue kyunwoo hanbok",
+      "tile": 5315,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cornflower kyunwoo hanbok",
+      "tile": 5315,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet kyunwoo hanbok",
+      "tile": 5315,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Red kyunwoo hanbok",
+      "tile": 5315,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lightblue kyunwoo hanbok",
+      "tile": 5315,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold kyunwoo hanbok",
+      "tile": 5315,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple kyunwoo hanbok",
+      "tile": 5315,
+      "color": 9,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue kyunwoo hanbok",
+      "tile": 5315,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown kyunwoo hanbok",
+      "tile": 5315,
+      "color": 13,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Orchid kyunwoo hanbok",
+      "tile": 5315,
+      "color": 16,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Silver kyunwoo hanbok",
+      "tile": 5315,
+      "color": 22,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Grey kyunwoo hanbok",
+      "tile": 5315,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Deepsky kyunwoo hanbok",
+      "tile": 5315,
+      "color": 28,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Indigo kyunwoo hanbok",
+      "tile": 5315,
+      "color": 29,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Slateblue kyunwoo hanbok",
+      "tile": 5315,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violetred kyunwoo hanbok",
+      "tile": 5315,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10317,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 1",
+      "tile": 5274,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 2",
+      "tile": 5274,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 3",
+      "tile": 5274,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 4",
+      "tile": 5274,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 5",
+      "tile": 5274,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 6",
+      "tile": 5274,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 7",
+      "tile": 5274,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 8",
+      "tile": 5274,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 9",
+      "tile": 5274,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 10",
+      "tile": 5274,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Frilly dress 11",
+      "tile": 5274,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10308,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 1",
+      "tile": 5291,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 2",
+      "tile": 5291,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 3",
+      "tile": 5291,
+      "color": 5,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 4",
+      "tile": 5291,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 5",
+      "tile": 5291,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 6",
+      "tile": 5291,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 7",
+      "tile": 5291,
+      "color": 18,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 8",
+      "tile": 5291,
+      "color": 29,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 9",
+      "tile": 5291,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 10",
+      "tile": 5291,
+      "color": 32,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 32,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 11",
+      "tile": 5291,
+      "color": 36,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 36,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 12",
+      "tile": 5291,
+      "color": 57,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 57,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Training wear 13",
+      "tile": 5291,
+      "color": 113,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10313,
+          "color": 113,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Hellish Battle Plate",
+      "tile": 4953,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10262,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Embroidered Jade Great Cloak",
+      "tile": 4955,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10263,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Skating gown",
+      "tile": 4356,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10196,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Snow skating dress",
+      "tile": 4188,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Twilight skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 109,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Forest skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cocoa skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 231,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ice skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Midnight skating dress",
+      "tile": 4188,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sapphire skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 105,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Rose skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 161,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Amethyst skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 167,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Scarlet skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 253,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Emerald skating dress",
+      "tile": 4188,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10145,
+          "color": 255,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "shoes": [
+    {
+      "name": "Black whale skin flippers",
+      "tile": 3473,
+      "color": 10,
+      "items": [
+        {
+          "part": 13,
+          "tile": 24,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Gold whale skin flippers",
+      "tile": 3473,
+      "color": 12,
+      "items": [
+        {
+          "part": 13,
+          "tile": 24,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue whale skin flippers",
+      "tile": 3473,
+      "color": 0,
+      "items": [
+        {
+          "part": 13,
+          "tile": 24,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Turquoise beach slippers",
+      "tile": 3480,
+      "color": 4,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Beach slippers",
+      "tile": 3481,
+      "color": 0,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet beach slippers",
+      "tile": 3480,
+      "color": 1,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Cerise beach slippers",
+      "tile": 3480,
+      "color": 2,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny beach slippers",
+      "tile": 3480,
+      "color": 7,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Electric beach slippers",
+      "tile": 3480,
+      "color": 9,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Aqua beach slippers",
+      "tile": 3480,
+      "color": 22,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black beach slippers",
+      "tile": 3480,
+      "color": 24,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "White beach slippers",
+      "tile": 3480,
+      "color": 25,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Brown beach slippers",
+      "tile": 3480,
+      "color": 27,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lilac beach slippers",
+      "tile": 3481,
+      "color": 30,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Apple beach slippers",
+      "tile": 3480,
+      "color": 19,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Marine beach slippers",
+      "tile": 3480,
+      "color": 30,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime beach slippers",
+      "tile": 3481,
+      "color": 20,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 34,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Ciel beach slippers",
+      "tile": 3481,
+      "color": 26,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 36,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lavender beach slippers",
+      "tile": 3480,
+      "color": 2,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 121,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuschia beach slippers",
+      "tile": 3481,
+      "color": 0,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 134,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Mustard beach slippers",
+      "tile": 3480,
+      "color": 13,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 181,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Purple beach slippers",
+      "tile": 3481,
+      "color": 31,
+      "items": [
+        {
+          "part": 13,
+          "tile": 26,
+          "color": 193,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunny beach sandals",
+      "tile": 3480,
+      "color": 7,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Electric beach sandals",
+      "tile": 3480,
+      "color": 9,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Clearwater beach sandals",
+      "tile": 3480,
+      "color": 10,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Black beach sandals",
+      "tile": 3480,
+      "color": 24,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Apple beach sandals",
+      "tile": 3480,
+      "color": 29,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Pacific beach sandals",
+      "tile": 3480,
+      "color": 31,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lime beach sandals",
+      "tile": 3480,
+      "color": 29,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 33,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Marine beach sandals",
+      "tile": 3480,
+      "color": 30,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 36,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Emerald beach sandals",
+      "tile": 3480,
+      "color": 16,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 39,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Lavender beach sandals",
+      "tile": 3480,
+      "color": 1,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 120,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuschia beach sandals",
+      "tile": 3480,
+      "color": 133,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 133,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunset beach sandals",
+      "tile": 3480,
+      "color": 3,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Palm beach sandals",
+      "tile": 3480,
+      "color": 4,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunglow beach sandals",
+      "tile": 3480,
+      "color": 23,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 185,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Dusk beach sandals",
+      "tile": 3480,
+      "color": 18,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 193,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Violet beach sandals",
+      "tile": 3480,
+      "color": 1,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Beach sandals",
+      "tile": 3480,
+      "color": 0,
+      "items": [
+        {
+          "part": 13,
+          "tile": 25,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    }
+  ],
+  "specialty_sets": [
+    {
+      "name": "Her Sailor Package",
+      "tile": 4218,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 237,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 16,
+          "tile": 10160,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 22,
+          "tile": 26,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 3,
+          "tile": 39,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "His Sailor Package",
+      "tile": 4218,
+      "color": 18,
+      "items": [
+        {
+          "part": 23,
+          "tile": 236,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 16,
+          "tile": 10159,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 22,
+          "tile": 25,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 3,
+          "tile": 39,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short deep sea hanbok set",
+      "tile": 3307,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 11,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short prism hanbok set",
+      "tile": 3307,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 6,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short arcane hanbok set",
+      "tile": 3307,
+      "color": 13,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 13,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short olive hanbok set",
+      "tile": 3307,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 27,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short azure hanbok set",
+      "tile": 3307,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 28,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short marine hanbok set",
+      "tile": 3307,
+      "color": 20,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 29,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short ocean hanbok set",
+      "tile": 3307,
+      "color": 19,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 30,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short harvest hanbok set",
+      "tile": 3307,
+      "color": 16,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 31,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short seashell hanbok set",
+      "tile": 3307,
+      "color": 21,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 16,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 16,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sunrise hanbok set",
+      "tile": 3307,
+      "color": 19,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 14,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 14,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short slate hanbok set",
+      "tile": 3307,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 15,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 15,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sand hanbok set",
+      "tile": 3307,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 17,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 17,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short amethyst hanbok set",
+      "tile": 3307,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 18,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short pastel hanbok set",
+      "tile": 3307,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 19,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short forest hanbok set",
+      "tile": 3307,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 20,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short rustic hanbok set",
+      "tile": 3307,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 21,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short pearl hanbok set",
+      "tile": 3307,
+      "color": 29,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 22,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short neapolitan hanbok set",
+      "tile": 3307,
+      "color": 9,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 23,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short violet hanbok set",
+      "tile": 3307,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 24,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short coal hanbok set",
+      "tile": 3307,
+      "color": 24,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 25,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short jade hanbok set",
+      "tile": 3307,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 26,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sunset hanbok set",
+      "tile": 3307,
+      "color": 13,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 7,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short blush hanbok set",
+      "tile": 3307,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 8,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short coral hanbok set",
+      "tile": 3307,
+      "color": 16,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 9,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short garnet hanbok set",
+      "tile": 3307,
+      "color": 17,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 10,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short morning hanbok set",
+      "tile": 3307,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short lime hanbok set",
+      "tile": 3307,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 2,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short celestial hanbok set",
+      "tile": 3307,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 3,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short ember hanbok set",
+      "tile": 3307,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 4,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short luminous hanbok set",
+      "tile": 3307,
+      "color": 11,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 5,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short leaf hanbok set",
+      "tile": 3307,
+      "color": 18,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10040,
+          "color": 12,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 31,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short dusk baji set",
+      "tile": 3307,
+      "color": 24,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 28,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 28,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short horizon baji set",
+      "tile": 3307,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 19,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 19,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short jungle baji set",
+      "tile": 3307,
+      "color": 1,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 5,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 5,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short glade baji set",
+      "tile": 3307,
+      "color": 10,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 6,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 6,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short hunter baji set",
+      "tile": 3307,
+      "color": 7,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 11,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 11,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short pond baji set",
+      "tile": 3307,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 12,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 12,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short festive baji set",
+      "tile": 3307,
+      "color": 12,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 13,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 13,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short bedrock baji set",
+      "tile": 3307,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 18,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 18,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sapphire baji set",
+      "tile": 3307,
+      "color": 3,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 7,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 7,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short celestial baji set",
+      "tile": 3307,
+      "color": 8,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 8,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 8,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sunset baji set",
+      "tile": 3307,
+      "color": 0,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 9,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 9,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short sunrise baji set",
+      "tile": 3307,
+      "color": 6,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 10,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 10,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short harvest baji set",
+      "tile": 3307,
+      "color": 14,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 0,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 0,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short tundra baji set",
+      "tile": 3307,
+      "color": 15,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 1,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 1,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short terra firma baji set",
+      "tile": 3307,
+      "color": 30,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 2,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 2,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short autumn baji set",
+      "tile": 3307,
+      "color": 31,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 3,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 3,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short swamp baji set",
+      "tile": 3307,
+      "color": 4,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 4,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 4,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short desert baji set",
+      "tile": 3307,
+      "color": 16,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 20,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 20,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short burnt sienna baji set",
+      "tile": 3307,
+      "color": 17,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 21,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 21,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short jade baji set",
+      "tile": 3307,
+      "color": 2,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 22,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 22,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short willow baji set",
+      "tile": 3307,
+      "color": 19,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 23,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 23,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short titanium baji set",
+      "tile": 3307,
+      "color": 20,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 24,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 24,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short earth baji set",
+      "tile": 3307,
+      "color": 21,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 25,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 25,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short rugged baji set",
+      "tile": 3307,
+      "color": 22,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 26,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 26,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short ochre baji set",
+      "tile": 3307,
+      "color": 23,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 27,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 27,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short ocean baji set",
+      "tile": 3307,
+      "color": 26,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 30,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 30,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short clay baji set",
+      "tile": 3307,
+      "color": 27,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 31,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 31,
+          "gender": 2
+        }
+      ]
+    },
+    {
+      "name": "Short midnight baji set",
+      "tile": 3307,
+      "color": 25,
+      "items": [
+        {
+          "part": 16,
+          "tile": 10039,
+          "color": 29,
+          "gender": 2
+        },
+        {
+          "part": 13,
+          "tile": 32,
+          "color": 29,
+          "gender": 2
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { CronJob } from 'cron'
 import fs from 'fs'
 import { boardKeys } from './boardLookupTable.js'
 import { getAndSendPosts } from './getAndSendPosts.js'
+import { scrapeAndCompareItemShop } from './scrapeAndCompareItemShop.js'
 
 export const startCronJob = (client) =>
   new CronJob(
@@ -20,6 +21,26 @@ export const startCronJob = (client) =>
         }
       } catch (e) {
         console.log('an error happened with CronJob: ', e)
+      }
+    },
+    null, // onComplete
+    false, // start automatically
+    'America/Los_Angeles',
+    null, // context
+    false, // runOnInit
+  )
+
+export const startItemShopCronJob = (client, channelId) =>
+  new CronJob(
+    // '0 */41 * * * *',
+    '0 * * * *',
+    async function () {
+      console.log('running item shop at: ' + Date.now())
+
+      try {
+        scrapeAndCompareItemShop({ client, channelId })
+      } catch (e) {
+        console.log(e, 'error')
       }
     },
     null, // onComplete

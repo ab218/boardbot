@@ -33,7 +33,7 @@ export const startCronJob = (client) =>
 export const startItemShopCronJob = (client, channelId) =>
   new CronJob(
     // '0 */41 * * * *',
-    '0 * * * *',
+    '57 * * * *',
     async function () {
       console.log('running item shop at: ' + Date.now())
 
